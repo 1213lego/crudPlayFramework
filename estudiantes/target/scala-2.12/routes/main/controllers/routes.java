@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/conf/routes
-// @DATE:Thu May 10 19:49:25 COT 2018
+// @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/sbt/estudiantes/conf/routes
+// @DATE:Thu May 10 20:19:45 COT 2018
 
 package controllers;
 

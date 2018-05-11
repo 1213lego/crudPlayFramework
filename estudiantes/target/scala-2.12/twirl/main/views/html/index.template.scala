@@ -32,7 +32,7 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*1.4*/("""
 
-"""),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
+"""),_display_(/*3.2*/main("Welcome to Playy")/*3.26*/ {_display_(Seq[Any](format.raw/*3.28*/("""
   """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
 """)))}),format.raw/*5.2*/("""
 """))
@@ -51,10 +51,10 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu May 10 19:49:25 COT 2018
-                  SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/index.scala.html
-                  HASH: e7b67f9143e77fd41846670f700f7278d5705eda
-                  MATRIX: 941->1|1037->3|1067->8|1098->31|1137->33|1167->37|1224->65
+                  DATE: Thu May 10 20:59:05 COT 2018
+                  SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/sbt/estudiantes/app/views/index.scala.html
+                  HASH: 7a14668ba55e478396ddd9b3081912d344efdf8d
+                  MATRIX: 941->1|1037->3|1067->8|1099->32|1138->34|1168->38|1225->66
                   LINES: 28->1|33->1|35->3|35->3|35->3|36->4|37->5
                   -- GENERATED --
               */
