@@ -7,3 +7,5 @@
     play.filters.hosts.AllowedHostsFilter
 
 2018-05-19 20:45:47,788 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-05-19 20:46:57,171 [INFO] from play.core.server.AkkaHttpServer in pool-7-thread-3 - Stopping server...
+2018-05-19 20:46:57,466 [INFO] from application in application-akka.actor.default-dispatcher-11 - Shutting down connection pool.
