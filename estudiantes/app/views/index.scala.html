@@ -1,0 +1,10 @@
+@(listaEstudiantes: List[Estudiante])
+
+@main("Estudiante") {
+  <h1>Listado estudiantes!</h1>
+    <ul>
+    @for(p <- listaEstudiantes) {
+        <li>@p.getNombres()</li>
+    }
+    </ul>
+}
