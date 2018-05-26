@@ -10,7 +10,7 @@
             </ProjectSettingsEntry>
           </value>
         </entry>
-        <entry key="estudiantes_8606">
+        <entry key="estudiantes_1715">
           <value>
             <ProjectSettingsEntry>
               <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.6.13.jar" />
@@ -20,7 +20,8 @@
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
-              <option name="confDir" value="C:\Users\ss\Desktop\Estructura de datos\estudiantes\app" />
+              <option name="sourceDir" value="C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app" />
+              <option name="confDir" value="C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app" />
               <option name="templateImports">
                 <list>
                   <option value="_root_.play.twirl.api.TwirlFeatureImports._" />
@@ -51,7 +52,7 @@
                   <option value="play.libs.F" />
                 </list>
               </option>
-              <option name="uri" value="/C:/Users/ss/Desktop/Estructura%20de%20datos/estudiantes" />
+              <option name="uri" value="/C:/Users/ss/Desktop/Estructura%20de%20datos/sbt/estudiantes" />
             </ProjectSettingsEntry>
           </value>
         </entry>

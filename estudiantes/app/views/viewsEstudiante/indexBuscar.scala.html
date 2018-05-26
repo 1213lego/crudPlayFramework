@@ -1,0 +1,13 @@
+@(estudiante: Estudiante)
+@content= {
+        <h1>Id: @estudiante.getIdentificacion()</h1>
+        <p>Nombres: @estudiante.getNombres()</p>
+        <p>Apellidos: @estudiante.getApellidos()</p>
+        <p>Semestre: @estudiante.getSemestre()</p>
+        <p>                                     </p>
+      <form action="@routes.HomeController.eliminar(estudiante.getIdentificacion)"> <input type="submit" value="Eliminar"> </form>
+        <p>                                     </p>
+        <form action="@routes.HomeController.indexList()"> <input type="submit" value="Regresar"> </form>
+
+}
+@main(estudiante.getIdentificacion().toString())(content)

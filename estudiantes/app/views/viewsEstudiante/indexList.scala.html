@@ -1,0 +1,46 @@
+@(listaEstudiantes: List[Estudiante])
+@content={
+        <head>
+            <style>
+                    table {
+                        font-family: arial, sans-serif;
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+
+                    td, th {
+                        border: 1px solid #dddddd;
+                        text-align: left;
+                        padding: 8px;
+                    }
+
+                    tr:nth-child(even) {
+                        background-color: #dddddd;
+                    }
+            </style>
+        </head>
+        <body>
+
+            <table>
+                <tr>
+                    <th>Identificacion  </th>
+                    <th>Nombres         </th>
+                    <th>Apellidos       </th>
+                    <th>Semestre        </th>
+                    <th>               </th>
+                </tr>
+                <h1>Lista Estudiantes!</h1>
+                @for(p <- listaEstudiantes){
+                    <tr>
+                        <td><a href="@routes.HomeController.buscar(p.getIdentificacion)">@p.getIdentificacion()</a></td>
+                        <td>@p.getNombres()</td>
+                        <td>@p.getApellidos</td>
+                        <td>@p.getSemestre()</td>
+                        <td> <form action="@routes.HomeController.eliminar(p.getIdentificacion)"> <input type="submit" value="Eliminar"> </form> </td>
+                    </tr>
+                }
+            </table>
+            <form action="@routes.HomeController.crear()">  <input type="submit" value="Crear estudiantes">  </form>
+        </body>
+}
+    @main("Estudiante")(content)

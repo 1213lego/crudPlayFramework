@@ -1,0 +1,19 @@
+@(formularioEstudiante: Form[Estudiante])
+
+@main("Estudiantes") {
+@helper.form(action=routes.HomeController.crear()){
+    <h1>Crear un estudiante</h1>
+  @helper.CSRF.formField
+  @helper.inputText(formularioEstudiante("Identificacion"))
+  @helper.inputText(formularioEstudiante("Nombres"))
+  @helper.inputText(formularioEstudiante("Apellidos"))
+  @helper.inputText(formularioEstudiante("Semestre"))
+  <input type="submit" value="Crear"/>
+}
+    @helper.form(action=routes.HomeController.search()){
+        <h1>Buscar un Estudiante</h1>
+        @helper.CSRF.formField
+        @helper.inputText(formularioEstudiante("Identificacion a buscar"))
+        <input type="submit" value="Buscar"/>
+    }
+}
