@@ -1,8 +1,12 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\controllers\HomeController.java:36:1:  error: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m        return ok(views.html.indexCrear.render(estudianteForm));[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^^  symbol:   class indexCrear[0m
-[0m[[0m[31merror[0m] [0m[0m  location: package views.html[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\controllers\HomeController.java:66:1:  error: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m            return ok(views.html.indexBuscar.render(estudiante));[0m
-[0m[[0m[31merror[0m] [0m[0m                                ^^  symbol:   class indexBuscar[0m
-[0m[[0m[31merror[0m] [0m[0m  location: package views.html[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:11:66: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
+[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Identificacion",'class -> "form-control"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:12:59: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
+[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Nombres",'class -> "form-control"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:13:61: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
+[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Apellidos",'class ->" form-control"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:14:60: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
+[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Semestre",'class -> "form-control"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m

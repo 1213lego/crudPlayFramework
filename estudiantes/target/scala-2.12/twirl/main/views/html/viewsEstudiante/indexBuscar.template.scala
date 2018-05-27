@@ -29,22 +29,26 @@ object indexBuscar extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.ap
     _display_ {
       {
 
-def /*2.2*/content/*2.9*/:play.twirl.api.HtmlFormat.Appendable = {_display_(
 
-Seq[Any](format.raw/*2.12*/("""
-        """),format.raw/*3.9*/("""<h1>Id: """),_display_(/*3.18*/estudiante/*3.28*/.getIdentificacion()),format.raw/*3.48*/("""</h1>
-        <p>Nombres: """),_display_(/*4.22*/estudiante/*4.32*/.getNombres()),format.raw/*4.45*/("""</p>
-        <p>Apellidos: """),_display_(/*5.24*/estudiante/*5.34*/.getApellidos()),format.raw/*5.49*/("""</p>
-        <p>Semestre: """),_display_(/*6.23*/estudiante/*6.33*/.getSemestre()),format.raw/*6.47*/("""</p>
-        <p>                                     </p>
-      <form action=""""),_display_(/*8.22*/routes/*8.28*/.HomeController.eliminar(estudiante.getIdentificacion)),format.raw/*8.82*/(""""> <input type="submit" value="Eliminar"> </form>
-        <p>                                     </p>
-        <form action=""""),_display_(/*10.24*/routes/*10.30*/.HomeController.indexList()),format.raw/*10.57*/(""""> <input type="submit" value="Regresar"> </form>
-
-""")))};
 Seq[Any](format.raw/*1.26*/("""
-"""),format.raw/*12.2*/("""
-"""),_display_(/*13.2*/main(estudiante.getIdentificacion().toString())/*13.49*/(content)),format.raw/*13.58*/("""
+"""),_display_(/*2.2*/mainMenu(estudiante.getIdentificacion().toString())/*2.53*/{_display_(Seq[Any](format.raw/*2.54*/("""
+    """),format.raw/*3.5*/("""<link rel="stylesheet" media="screen" href=""""),_display_(/*3.50*/routes/*3.56*/.Assets.versioned("css/bootstrap.min.css")),format.raw/*3.98*/("""">
+    <link rel="stylesheet" media="screen" href=""""),_display_(/*4.50*/routes/*4.56*/.Assets.versioned("css/bootstrap-theme.min.css")),format.raw/*4.104*/("""">
+    <link rel="stylesheet" media="screen" href=""""),_display_(/*5.50*/routes/*5.56*/.Assets.versioned("css/style.css")),format.raw/*5.90*/("""">
+    <body>
+        <h1>Id: """),_display_(/*7.18*/estudiante/*7.28*/.getIdentificacion()),format.raw/*7.48*/("""</h1>
+        <p>Nombres: """),_display_(/*8.22*/estudiante/*8.32*/.getNombres()),format.raw/*8.45*/("""</p>
+        <p>Apellidos: """),_display_(/*9.24*/estudiante/*9.34*/.getApellidos()),format.raw/*9.49*/("""</p>
+        <p>Semestre: """),_display_(/*10.23*/estudiante/*10.33*/.getSemestre()),format.raw/*10.47*/("""</p>
+        <p>                                     </p>
+        <a class="btn btn-danger" href=""""),_display_(/*12.42*/routes/*12.48*/.HomeController.eliminar(estudiante.getIdentificacion)),format.raw/*12.102*/("""">Eliminar</a>   <a class="btn btn-primary" href=""""),_display_(/*12.153*/routes/*12.159*/.HomeController.indexList()),format.raw/*12.186*/("""">Regresar</a>
+        <p>                                     </p>
+
+        <script src=""""),_display_(/*15.23*/routes/*15.29*/.Assets.versioned("js/jquery-3.3.1.min.js")),format.raw/*15.72*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*16.23*/routes/*16.29*/.Assets.versioned("js/bootstrap.min.js")),format.raw/*16.69*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*17.23*/routes/*17.29*/.Assets.versioned("js/custom.js")),format.raw/*17.62*/("""" type="text/javascript"></script>
+    </body>
+""")))}),format.raw/*19.2*/("""
 """))
       }
     }
@@ -61,11 +65,11 @@ Seq[Any](format.raw/*1.26*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sat May 26 16:29:05 COT 2018
+                  DATE: Sun May 27 00:14:31 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsEstudiante/indexBuscar.scala.html
-                  HASH: 59dcd18c247173c08556d8414c850392b5e0b851
-                  MATRIX: 974->1|1076->28|1090->35|1170->38|1206->48|1241->57|1259->67|1299->87|1353->115|1371->125|1404->138|1459->167|1477->177|1512->192|1566->220|1584->230|1618->244|1725->325|1739->331|1813->385|1968->513|1983->519|2031->546|2124->25|2153->600|2182->603|2238->650|2268->659
-                  LINES: 28->1|32->2|32->2|34->2|35->3|35->3|35->3|35->3|36->4|36->4|36->4|37->5|37->5|37->5|38->6|38->6|38->6|40->8|40->8|40->8|42->10|42->10|42->10|45->1|46->12|47->13|47->13|47->13
+                  HASH: 0abac338011d59677a28be2b0dcf4559c50ff91b
+                  MATRIX: 974->1|1093->25|1121->28|1180->79|1218->80|1250->86|1321->131|1335->137|1397->179|1476->232|1490->238|1559->286|1638->339|1652->345|1706->379|1765->412|1783->422|1823->442|1877->470|1895->480|1928->493|1983->522|2001->532|2036->547|2091->575|2110->585|2145->599|2273->700|2288->706|2364->760|2443->811|2459->817|2508->844|2629->938|2644->944|2708->987|2793->1045|2808->1051|2869->1091|2954->1149|2969->1155|3023->1188|3103->1238
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|35->3|35->3|35->3|36->4|36->4|36->4|37->5|37->5|37->5|39->7|39->7|39->7|40->8|40->8|40->8|41->9|41->9|41->9|42->10|42->10|42->10|44->12|44->12|44->12|44->12|44->12|44->12|47->15|47->15|47->15|48->16|48->16|48->16|49->17|49->17|49->17|51->19
                   -- GENERATED --
               */
           

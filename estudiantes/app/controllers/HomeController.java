@@ -7,7 +7,6 @@ import play.data.DynamicForm;
 import play.data.Form;
 import play.data.FormFactory;
 import play.mvc.*;
-import views.html.prueba.prueba;
 import views.html.viewsEstudiante.*;
 
 import javax.inject.Inject;
@@ -25,12 +24,17 @@ public class HomeController extends Controller {
     {
         formFactory=pforFormFactory;
     }
+
+    public Result mainPage()
+    {
+        return ok(mainPage.render("Estudiante"));
+    }
     public Result indexList()
     {
         Query<Estudiante> estudianteQuery= Ebean.find(Estudiante.class);
         List<Estudiante> estudiantes= estudianteQuery.findList();
-        return ok(indexList.render(estudiantes));
-        //return ok(prueba.render(estudiantes));
+        //return ok(indexList.render(estudiantes));
+        return ok(prueba.render(estudiantes));
     }
     public Result indexCrear()
     {
@@ -57,7 +61,7 @@ public class HomeController extends Controller {
         }
         catch (Exception e)
         {
-            return badRequest("ya existe");
+            return ok(mainPage.render("El estudiante con Id: " + identidicion + " No se creo"+ e.getMessage()));
         }
     }
     public Result buscar(Long identificacion)
@@ -69,7 +73,8 @@ public class HomeController extends Controller {
         }
         else
         {
-            return badRequest("No existe");
+            String mensaje="No existe el estudiante con Id: " + identificacion.toString();
+            return ok(mainPage.render(mensaje));
         }
     }
 
@@ -77,15 +82,7 @@ public class HomeController extends Controller {
         DynamicForm data=formFactory.form().bindFromRequest();
         String identificacion= data.get("Identificacion a buscar");
         Long idd=Long.parseLong(identificacion);
-        Estudiante est= Ebean.find(Estudiante.class,idd);
-        if(est!=null)
-        {
-            return ok(indexBuscar.render(est));
-        }
-        else
-        {
-            return indexCrear();
-        }
+        return buscar(idd);
     }
     public Result eliminar(Long id)
     {
@@ -96,7 +93,7 @@ public class HomeController extends Controller {
             return indexList();
         }
         else {
-            return badRequest("No se elimino nada");
+            return ok(mainPage.render("No se elimino"));
         }
     }
 }

@@ -1,13 +1,19 @@
 @(estudiante: Estudiante)
-@content= {
+@mainMenu(estudiante.getIdentificacion().toString()){
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/bootstrap.min.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/bootstrap-theme.min.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/style.css")">
+    <body>
         <h1>Id: @estudiante.getIdentificacion()</h1>
         <p>Nombres: @estudiante.getNombres()</p>
         <p>Apellidos: @estudiante.getApellidos()</p>
         <p>Semestre: @estudiante.getSemestre()</p>
         <p>                                     </p>
-      <form action="@routes.HomeController.eliminar(estudiante.getIdentificacion)"> <input type="submit" value="Eliminar"> </form>
+        <a class="btn btn-danger" href="@routes.HomeController.eliminar(estudiante.getIdentificacion)">Eliminar</a>   <a class="btn btn-primary" href="@routes.HomeController.indexList()">Regresar</a>
         <p>                                     </p>
-        <form action="@routes.HomeController.indexList()"> <input type="submit" value="Regresar"> </form>
 
+        <script src="@routes.Assets.versioned("js/jquery-3.3.1.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.versioned("js/bootstrap.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.versioned("js/custom.js")" type="text/javascript"></script>
+    </body>
 }
-@main(estudiante.getIdentificacion().toString())(content)

@@ -11,8 +11,9 @@ libraryDependencies += guice
 libraryDependencies += javaJdbc
 libraryDependencies += "org.postgresql" % "postgresql" % "42.2.2"
 
-/*  includeFilter in (Assets, LessKeys.less) := "foo.less" | "bar.less"
-includeFilter in (Assets, LessKeys.less) := "*.less"
+// Resolver is needed only for SNAPSHOT versions
+resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
 
-excludeFilter in (Assets, LessKeys.less) := "_*.less"
-libraryDependencies += "org.webjars" % "bootstrap" % "3.3.4"   */
+libraryDependencies ++= Seq(
+  "com.adrianhurt" %% "play-bootstrap" % "1.4-P26-B4-SNAPSHOT"
+)

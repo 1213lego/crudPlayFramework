@@ -1,19 +1,28 @@
 @(formularioEstudiante: Form[Estudiante])
 
-@main("Estudiantes") {
+@mainMenu("Estudiantes") {
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/bootstrap.min.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/bootstrap-theme.min.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/style.css")">
+
 @helper.form(action=routes.HomeController.crear()){
     <h1>Crear un estudiante</h1>
   @helper.CSRF.formField
-  @helper.inputText(formularioEstudiante("Identificacion"))
-  @helper.inputText(formularioEstudiante("Nombres"))
-  @helper.inputText(formularioEstudiante("Apellidos"))
-  @helper.inputText(formularioEstudiante("Semestre"))
-  <input type="submit" value="Crear"/>
+  @helper.inputText(formularioEstudiante("Identificacion"),'class -> "form-control")
+  @helper.inputText(formularioEstudiante("Nombres"),'class -> "form-control")
+  @helper.inputText(formularioEstudiante("Apellidos"),'class ->" form-control")
+  @helper.inputText(formularioEstudiante("Semestre"),'class -> "form-control")
+  <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i> Crear Estudiante</button>
 }
     @helper.form(action=routes.HomeController.search()){
         <h1>Buscar un Estudiante</h1>
         @helper.CSRF.formField
-        @helper.inputText(formularioEstudiante("Identificacion a buscar"))
-        <input type="submit" value="Buscar"/>
+        @helper.inputText(formularioEstudiante("Identificacion a buscar"),'class ->"form-control")
+        <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i> Bucar</button>
     }
+
+    <script src="@routes.Assets.versioned("js/jquery-3.3.1.min.js")" type="text/javascript"></script>
+    <script src="@routes.Assets.versioned("js/bootstrap.min.js")" type="text/javascript"></script>
+    <script src="@routes.Assets.versioned("js/custom.js")" type="text/javascript"></script>
+
 }

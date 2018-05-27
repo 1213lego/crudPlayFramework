@@ -3,6 +3,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
+GET     /home                                       controllers.HomeController.mainPage()
 GET     /listado                                    controllers.HomeController.indexList()
 GET     /crear                                      controllers.HomeController.indexCrear()
 POST    /crear                                      controllers.HomeController.crear()

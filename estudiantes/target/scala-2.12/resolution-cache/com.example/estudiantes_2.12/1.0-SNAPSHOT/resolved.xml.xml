@@ -4,7 +4,7 @@
 		module="estudiantes_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180526164509"
+		publication="20180526215240"
 	>
 		<description>
 		estudiantes
@@ -54,5 +54,6 @@
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.13" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-jdbc_2.12" rev="2.6.13" conf="compile->default(compile)"/>
 		<dependency org="org.postgresql" name="postgresql" rev="42.2.2" conf="compile->default(compile)"/>
+		<dependency org="com.adrianhurt" name="play-bootstrap_2.12" rev="1.4-P26-B4-SNAPSHOT" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

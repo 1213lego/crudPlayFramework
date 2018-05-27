@@ -49,19 +49,23 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-logback_2.12;2.6.13 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-logback_2.12;2.6.13 {compile=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], compile-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-logback_2.12;2.6.13
 [debug] 	found com.typesafe.play#play-logback_2.12;2.6.13 in sbt-chain
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#filters-helpers_2.12;2.6.13 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
@@ -133,19 +137,23 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-akka-http-server_2.12;2.6.13 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-akka-http-server_2.12;2.6.13 {compile=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-akka-http-server_2.12;2.6.13
 [debug] 	found com.typesafe.play#play-akka-http-server_2.12;2.6.13 in sbt-chain
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-exceptions;2.6.13 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
@@ -221,6 +229,52 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] don't use cache for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT: changing=true
+[debug] sbt-chain-delegate is changing. Checking all resolvers on the chain.
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] don't use cache for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT: changing=true
+[debug] don't use cache for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT: changing=true
+[debug] 		tried C:\Users\ss\.ivy2\local\com.adrianhurt\play-bootstrap_2.12\1.4-P26-B4-SNAPSHOT\ivys\ivy.xml
+[debug] 	local: no ivy file found for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT: changing=true
+[debug] 	maven-metadata not available: https://repo1.maven.org/maven2/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/maven-metadata.xml
+[debug] 		tried https://repo1.maven.org/maven2/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom
+[debug] 	public: no ivy file found for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT: changing=true
+[debug] 		tried C:\Users\ss\.sbt\preloaded\com.adrianhurt\play-bootstrap_2.12\1.4-P26-B4-SNAPSHOT\ivys\ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT: changing=true
+[debug] 	maven-metadata and maven-metadata-local not available: C:\Users\ss\.sbt\preloaded\com\adrianhurt\play-bootstrap_2.12\1.4-P26-B4-SNAPSHOT\maven-metadata.xml
+[debug] 		tried file:/C:/Users/ss/.sbt/preloaded/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom
+[debug] 	local-preloaded: no ivy file found for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT: changing=true
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom
+[debug] 	Sonatype OSS Snapshots: found md file for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT
+[debug] 		=> https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom (1.4-P26-B4-SNAPSHOT)
+[debug] 	default-cache: revision in cache is not up to date: com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT
+[debug] downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom ...
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom.sha1
+[debug] sha1 OK for https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom
+[debug] 	[SUCCESSFUL ] com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT!play-bootstrap_2.12.pom(pom.original) (567ms)
+[debug] com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.pom
+[warn] Choosing Sonatype OSS Snapshots for com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT.jar
+[debug] 	found com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT in Sonatype OSS Snapshots
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.6
@@ -378,6 +432,48 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] don't use cache for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT: changing=true
+[debug] sbt-chain-delegate is changing. Checking all resolvers on the chain.
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] don't use cache for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT: changing=true
+[debug] don't use cache for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT: changing=true
+[debug] 		tried C:\Users\ss\.ivy2\local\com.adrianhurt\play-bootstrap-core_2.12\1.4-P26-SNAPSHOT\ivys\ivy.xml
+[debug] 	local: no ivy file found for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT: changing=true
+[debug] 	maven-metadata not available: https://repo1.maven.org/maven2/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/maven-metadata.xml
+[debug] 		tried https://repo1.maven.org/maven2/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom
+[debug] 	public: no ivy file found for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT: changing=true
+[debug] 		tried C:\Users\ss\.sbt\preloaded\com.adrianhurt\play-bootstrap-core_2.12\1.4-P26-SNAPSHOT\ivys\ivy.xml
+[debug] 	local-preloaded-ivy: no ivy file found for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT: changing=true
+[debug] 	maven-metadata and maven-metadata-local not available: C:\Users\ss\.sbt\preloaded\com\adrianhurt\play-bootstrap-core_2.12\1.4-P26-SNAPSHOT\maven-metadata.xml
+[debug] 		tried file:/C:/Users/ss/.sbt/preloaded/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom
+[debug] 	local-preloaded: no ivy file found for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT
+[debug] don't use cache for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT: changing=true
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom
+[debug] 	Sonatype OSS Snapshots: found md file for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT
+[debug] 		=> https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom (1.4-P26-SNAPSHOT)
+[debug] 	default-cache: revision in cache is not up to date: com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT
+[debug] downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom ...
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom.sha1
+[debug] sha1 OK for https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom
+[debug] 	[SUCCESSFUL ] com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT!play-bootstrap-core_2.12.pom(pom.original) (505ms)
+[debug] com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.pom
+[warn] Choosing Sonatype OSS Snapshots for com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT.jar
+[debug] 	found com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT in Sonatype OSS Snapshots
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-ebean_2.12;4.1.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-ebean_2.12;4.1.0
@@ -1032,12 +1128,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->runtime]
@@ -1097,12 +1197,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->runtime(*)]
@@ -1160,6 +1264,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
@@ -1277,6 +1393,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->compile]
@@ -1763,12 +1887,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->runtime]
@@ -1828,12 +1956,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->runtime(*)]
@@ -1891,6 +2023,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
@@ -2008,6 +2152,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->compile]
@@ -2498,12 +2650,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->runtime]
@@ -2563,17 +2719,17 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
-[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
-[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime(*)]
-[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
-[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->compile]
@@ -2630,6 +2786,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
@@ -2747,6 +2915,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->compile]
@@ -3237,12 +3413,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->runtime]
@@ -3302,12 +3482,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->runtime(*)]
@@ -3365,6 +3549,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
@@ -3482,6 +3678,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->compile]
@@ -3990,12 +4194,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [test->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [test->runtime]
@@ -4181,6 +4389,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test->compile]
@@ -4320,6 +4540,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test->compile]
@@ -5165,12 +5393,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->runtime]
@@ -5230,12 +5462,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->runtime(*)]
@@ -5293,6 +5529,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
@@ -5410,6 +5658,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->compile]
@@ -5898,12 +6154,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile-internal->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile-internal->runtime]
@@ -5963,12 +6223,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile-internal->runtime(*)]
@@ -6026,6 +6290,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile-internal->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile-internal->compile]
@@ -6143,6 +6419,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile-internal->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile-internal->compile]
@@ -6633,12 +6917,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->runtime]
@@ -6698,12 +6986,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->runtime(*)]
@@ -6761,6 +7053,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
@@ -6878,6 +7182,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->compile]
@@ -7364,12 +7676,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->runtime]
@@ -7429,12 +7745,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->runtime(*)]
@@ -7492,6 +7812,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
@@ -7609,6 +7941,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->compile]
@@ -8096,12 +8436,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime-internal->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime-internal->runtime]
@@ -8161,12 +8505,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime-internal->runtime(*)]
@@ -8224,6 +8572,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime-internal->compile]
@@ -8341,6 +8701,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime-internal->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime-internal->compile]
@@ -8832,12 +9200,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [compile->runtime]
@@ -8897,12 +9269,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [compile->runtime(*)]
@@ -8960,6 +9336,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [compile->compile]
@@ -9077,6 +9465,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [compile->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [compile->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [compile->compile]
@@ -9563,12 +9959,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [runtime->runtime]
@@ -9628,12 +10028,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-akka-http-server_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.6.13 [runtime->runtime(*)]
@@ -9691,6 +10095,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [runtime->compile]
@@ -9808,6 +10224,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [runtime->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [runtime->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [runtime->compile]
@@ -10310,12 +10734,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [test->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [test->runtime]
@@ -10486,6 +10914,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test->compile]
@@ -10619,6 +11059,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test->compile]
@@ -11367,12 +11815,16 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->master(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->default(compile)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-logback_2.12;2.6.13 [test-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [test-internal->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.12;2.6.13 [test-internal->runtime]
@@ -11543,6 +11995,18 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->io.ebean#ebean-annotation;3.5 [test-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->default]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->default(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT [test-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.6 [test-internal->compile]
@@ -11676,6 +12140,14 @@
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test-internal->compile]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-java-forms_2.12;2.6.13 [test-internal->master]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->runtime(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->master(compile)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->runtime]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->compile]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->compile(*)]
+[debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT [test-internal->master]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test-internal->default]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test-internal->runtime]
 [debug] == resolving dependencies com.example#estudiantes$sources;1.0-SNAPSHOT->com.typesafe.play#play-ebean_2.12;4.1.0 [test-internal->compile]
@@ -12902,7 +13374,7 @@
 [debug] circular dependency found: org.seleniumhq.selenium#htmlunit-driver;2.27->net.sourceforge.htmlunit#htmlunit;2.27->...
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.0!jackson-core.jar(src)
 [debug] no default ivy user dir defined: set to C:\Users\ss\.ivy2
 [debug] including url: jar:file:/C:/Users/ss/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to C:\Users\ss\.ivy2\cache
@@ -12919,19 +13391,23 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.11!jackson-datatype-jdk8.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.0!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] io.ebean#ebean-migration;11.2.1!ebean-migration.jar(src)
+[debug] 	[NOT REQUIRED] org.reflections#reflections;0.9.11!reflections.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.12;2.6.13!play-jdbc_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.6.13!play-logback_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.12;2.6.13!filters-helpers_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.6.13!build-link.jar(src)
+[debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-enhancer;1.2.2!play-enhancer.jar(src)
 [debug] no default ivy user dir defined: set to C:\Users\ss\.ivy2
 [debug] including url: jar:file:/C:/Users/ss/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to C:\Users\ss\.ivy2\cache
 [debug] including url: jar:file:/C:/Users/ss/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/C:/Users/ss/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/C:/Users/ss/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.0.18!error_prone_annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.springframework#spring-context;4.3.11.RELEASE!spring-context.jar(src)
 [debug] including url: jar:file:/C:/Users/ss/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (165ms)
+[debug] settings loaded (69ms)
 [debug] 	default cache: C:\Users\ss\.ivy2\cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -12940,29 +13416,31 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	[NOT REQUIRED] io.ebean#ebean-migration;11.2.1!ebean-migration.jar(src)
-[debug] 	[NOT REQUIRED] org.reflections#reflections;0.9.11!reflections.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.12;2.6.13!play-jdbc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.6.13!play-logback_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.12;2.6.13!filters-helpers_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.6.13!play-akka-http-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
+[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.11!jackson-datatype-jdk8.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.6.13!play-exceptions.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.12;2.6.13!play-jdbc-api_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.0.18!error_prone_annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-context;4.3.11.RELEASE!spring-context.jar(src)
 [debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.1.0!guice-assistedinject.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.6.13!build-link.jar(src)
 [debug] 	[NOT REQUIRED] org.postgresql#postgresql;42.2.2!postgresql.jar(src)
-[debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.7.0!jjwt.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)
+[debug] 	[NOT REQUIRED] org.antlr#antlr4-runtime;4.6!antlr4-runtime.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.12;2.6.13!play-java-jdbc_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.6.13!play-netty-utils.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] io.ebean#ebean-annotation;3.5!ebean-annotation.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.12;2.6.13!play-server_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-streams_2.12;2.6.13!play-streams_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.6.13!play-akka-http-server_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.6.13!play-exceptions.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
 [debug] 	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.3.0.Final!jboss-logging.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-guice_2.12;2.6.13!play-guice_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.12;2.6.13!play-jdbc-api_2.12.jar(src)
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT-sources.jar
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.5.3!selenium-support.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.5.v20170502!websocket-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.12;2.6.13!play-test_2.12.jar(src)
@@ -12977,20 +13455,9 @@
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.27!htmlunit-driver.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.5.3!selenium-firefox-driver.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.5.v20170502!jetty-util.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)
-[debug] 	[NOT REQUIRED] org.antlr#antlr4-runtime;4.6!antlr4-runtime.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.12;2.6.13!play-java-jdbc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] io.ebean#ebean-annotation;3.5!ebean-annotation.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-java_2.12;2.6.13!play-java_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
-[debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.14!twirl-api_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.3!httpclient.jar(src)
-[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;2.7.9!HikariCP.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.12;2.6.13!play_2.12.jar(src)
+[info] downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT-sources.jar ...
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT-sources.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.5.v20170502!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.5.v20170502!jetty-client.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-common;9.4.5.v20170502!websocket-common.jar(src)
@@ -13001,49 +13468,44 @@
 [debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.27!neko-htmlunit.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.27!htmlunit-core-js.jar(src)
-[debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
 [debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
-[debug] 	[NOT REQUIRED] io.ebean#ebean;11.7.1!ebean.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-java-forms_2.12;2.6.13!play-java-forms_2.12.jar(src)
 [debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.5.3!selenium-api.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.8.0!gson.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-ebean_2.12;4.1.0!play-ebean_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.1.0!jna-platform.jar(src)
-[debug] 	[NOT REQUIRED] net.jodah#typetools;0.5.0!typetools.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.5.v20170502!jetty-http.jar(src)
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
-[debug] 	[NOT REQUIRED] io.ebean#persistence-api;2.2.1!persistence-api.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.6!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.3!httpmime.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.5.3!selenium-remote-driver.jar(src)
-[debug] 	[NOT REQUIRED] org.avaje#avaje-datasource;2.1.2!avaje-datasource.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.avaje#avaje-classpath-scanner;2.2.4!avaje-classpath-scanner.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.11!akka-slf4j_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.11!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.11!jackson-datatype-jsr310.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.12;2.6.13!play-omnidoc_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.6.0!pegdown.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.12;1.8.1!play-doc_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.12;2.6.13!play-docs_2.12.jar(src)
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT-sources.jar.sha1
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)
+[debug] 	[NOT REQUIRED] io.ebean#persistence-api;2.2.1!persistence-api.jar(src)
+[debug] 	[NOT REQUIRED] org.avaje#avaje-datasource;2.1.2!avaje-datasource.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.avaje#avaje-classpath-scanner;2.2.4!avaje-classpath-scanner.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.11!akka-slf4j_2.12.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.11!jackson-datatype-jsr310.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.12;2.6.9!play-jdbc-evolutions_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.javassist#javassist;3.21.0-GA!javassist.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;22.0!guava.jar(src)
@@ -13056,20 +13518,42 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.9!play-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.11!jackson-databind.jar(src)
+[debug] sha1 OK for https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap_2.12/1.4-P26-B4-SNAPSHOT/play-bootstrap_2.12-1.4-P26-B4-SNAPSHOT-sources.jar
+[info] 	[SUCCESSFUL ] com.adrianhurt#play-bootstrap_2.12;1.4-P26-B4-SNAPSHOT!play-bootstrap_2.12.jar(src) (1012ms)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.6!commons-lang3.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java_2.12;2.6.13!play-java_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
+[debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.3.14!twirl-api_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;2.7.9!HikariCP.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.0.13!akka-parsing_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.9!play-functional_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;4.1.0!guice.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.12;2.6.13!play_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.14!animal-sniffer-annotations.jar(src)
+[debug] 	[NOT REQUIRED] io.ebean#ebean;11.7.1!ebean.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java-forms_2.12;2.6.13!play-java-forms_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] org.springframework#spring-core;4.3.11.RELEASE!spring-core.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.0.13!akka-http-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.11!jackson-annotations.jar(src)
+[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT-sources.jar
 [debug] 	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-enhancer;1.2.2!play-enhancer.jar(src)
-[debug] :: resolution report :: resolve 20056ms :: artifacts dl 3604ms
+[info] downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT-sources.jar ...
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT-sources.jar
+[debug] 	Sonatype OSS Snapshots: downloading https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT-sources.jar.sha1
+[debug] sha1 OK for https://oss.sonatype.org/content/repositories/snapshots/com/adrianhurt/play-bootstrap-core_2.12/1.4-P26-SNAPSHOT/play-bootstrap-core_2.12-1.4-P26-SNAPSHOT-sources.jar
+[info] 	[SUCCESSFUL ] com.adrianhurt#play-bootstrap-core_2.12;1.4-P26-SNAPSHOT!play-bootstrap-core_2.12.jar(src) (1227ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ebean_2.12;4.1.0!play-ebean_2.12.jar(src)
+[debug] 	[NOT REQUIRED] net.jodah#typetools;0.5.0!typetools.jar(src)
+[debug] :: resolution report :: resolve 24324ms :: artifacts dl 3090ms
 [debug] 	report for com.example#estudiantes$sources;1.0-SNAPSHOT compile produced in C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\target\scala-2.12\resolution-cache\reports\com.example-estudiantes$sources-compile.xml
 [debug] 	report for com.example#estudiantes$sources;1.0-SNAPSHOT runtime produced in C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\target\scala-2.12\resolution-cache\reports\com.example-estudiantes$sources-runtime.xml
 [debug] 	report for com.example#estudiantes$sources;1.0-SNAPSHOT test produced in C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\target\scala-2.12\resolution-cache\reports\com.example-estudiantes$sources-test.xml
@@ -13090,4 +13574,4 @@
 [debug] 	report for com.example#estudiantes$sources;1.0-SNAPSHOT pom produced in C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\target\scala-2.12\resolution-cache\reports\com.example-estudiantes$sources-pom.xml
 [debug] 	report for com.example#estudiantes$sources;1.0-SNAPSHOT scala-tool produced in C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\target\scala-2.12\resolution-cache\reports\com.example-estudiantes$sources-scala-tool.xml
 [debug] 	report for com.example#estudiantes$sources;1.0-SNAPSHOT docs produced in C:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\target\scala-2.12\resolution-cache\reports\com.example-estudiantes$sources-docs.xml
-[debug] 	resolve done (20056ms resolve - 3604ms download)
+[debug] 	resolve done (24324ms resolve - 3090ms download)
