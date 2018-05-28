@@ -44,7 +44,7 @@ Seq[Any](format.raw/*7.32*/("""
         """),format.raw/*13.9*/("""<title>"""),_display_(/*13.17*/title),format.raw/*13.22*/("""</title>
         <link rel="stylesheet" media="screen" href=""""),_display_(/*14.54*/routes/*14.60*/.Assets.versioned("css/bootstrap.min.css")),format.raw/*14.102*/("""">
         <link rel="stylesheet" media="screen" href=""""),_display_(/*15.54*/routes/*15.60*/.Assets.versioned("css/bootstrap-theme.min.css")),format.raw/*15.108*/("""">
-        <link rel="stylesheet" media="screen" href=""""),_display_(/*16.54*/routes/*16.60*/.Assets.versioned("css/style.css")),format.raw/*16.94*/("""">
+        <link rel="stylesheet" media="screen" href=""""),_display_(/*16.54*/routes/*16.60*/.Assets.versioned("public/css/style.css")),format.raw/*16.101*/("""">
         <link rel="shortcut icon" type="image/png" href=""""),_display_(/*17.59*/routes/*17.65*/.Assets.versioned("images/favicon.png")),format.raw/*17.104*/("""">
 
     </head>
@@ -74,10 +74,10 @@ Seq[Any](format.raw/*7.32*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sat May 26 22:51:42 COT 2018
+                  DATE: Sun May 27 15:55:21 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsEstudiante/main.scala.html
-                  HASH: 1f8b1d09ec3430cda1bc1ec8de4472a91ce5b3b2
-                  MATRIX: 1227->266|1352->296|1382->300|1465->408|1502->418|1537->426|1563->431|1653->494|1668->500|1732->542|1816->599|1831->605|1901->653|1985->710|2000->716|2055->750|2144->812|2159->818|2220->857|2287->987|2324->997|2385->1031|2413->1038|2450->1048|2507->1078|2522->1084|2586->1127|2671->1185|2686->1191|2747->1231|2832->1289|2847->1295|2901->1328
+                  HASH: 8062cb2e4c604b9c128e3168e0444e6067e76ac2
+                  MATRIX: 1227->266|1352->296|1382->300|1465->408|1502->418|1537->426|1563->431|1653->494|1668->500|1732->542|1816->599|1831->605|1901->653|1985->710|2000->716|2063->757|2152->819|2167->825|2228->864|2295->994|2332->1004|2393->1038|2421->1045|2458->1055|2515->1085|2530->1091|2594->1134|2679->1192|2694->1198|2755->1238|2840->1296|2855->1302|2909->1335
                   LINES: 33->7|38->7|40->9|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|47->16|47->16|47->16|48->17|48->17|48->17|52->22|53->23|54->24|54->24|55->25|56->26|56->26|56->26|57->27|57->27|57->27|58->28|58->28|58->28
                   -- GENERATED --
               */

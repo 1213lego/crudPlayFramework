@@ -44,10 +44,10 @@ public class HomeController extends Controller {
     public  Result crear()
     {
         DynamicForm data=formFactory.form().bindFromRequest();
-        String identidicion= data.get("Identificacion");
-        String nombres= data.get("Nombres");
-        String apellidos= data.get("Apellidos");
-        String semestre=data.get("Semestre");
+        String identidicion= data.get("identificacion");
+        String nombres= data.get("nombres");
+        String apellidos= data.get("apellidos");
+        String semestre=data.get("semestre");
         Estudiante estudiante= new Estudiante();
         estudiante.setIdentificacion(Long.parseLong(identidicion));
         estudiante.setNombres(nombres);

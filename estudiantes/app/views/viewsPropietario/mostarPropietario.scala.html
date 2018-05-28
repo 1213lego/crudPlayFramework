@@ -1,0 +1,38 @@
+@(propietario: Propietario, formularioPropietarios : Form[Propietario])
+@main("Busqueda Propietarios"){
+    <div class="jumbotron">
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <p>    </p>
+                <p class="h2">Cedula: @propietario.getCedula</p>
+                <p>    </p>
+                <p class="display-4">Nombres: @propietario.getNombres</p>
+                <p>    </p>
+                <p class="display-4">Apellidos: @propietario.getApellidos</p>
+
+         @*       <h4> <a class="glyphicon glyphicon-trash" href="#"> Eliminar </a> </h4>  *@
+                <p>    </p>
+                <p>    </p>
+                <a class="btn btn-success" href="#" contenteditable="false">
+                    <i class="glyphicon glyphicon-trash"></i>
+                    Eliminar
+                </a>
+
+            </div>
+            <div class="col-sm-8">
+            @helper.form(action = routes.ControladorPropietario.index()){
+                @helper.CSRF.formField
+                <p class="h2">Cedula: @propietario.getCedula</p>
+                @helper.inputText(formularioPropietarios("nombres"),'class -> "form-control", 'placeholder -> "nombres",'readonly ->"true").body -> propietario.getNombres
+                @helper.inputText(formularioPropietarios("apellidos"),'class -> "form-control", 'placeholder -> "apellidos").text -> propietario.getApellidos
+
+          @*      @helper.inputText(formularioPropietarios("someValue"), '_label -> "Some Value", 'readonly -> "readonly",'content -> propietario.getNombres) *@
+                <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-edit"></i>Modificar</button>
+            }
+            </div>
+        </div>
+
+    </div>
+}

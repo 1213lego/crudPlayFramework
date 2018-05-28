@@ -2,14 +2,14 @@ package models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Vehiculo {
 
     @Id
     private String placa;
-    @OneToOne
+    @ManyToOne
     private Propietario propietario;
     private String marca;
     private Integer modelo;

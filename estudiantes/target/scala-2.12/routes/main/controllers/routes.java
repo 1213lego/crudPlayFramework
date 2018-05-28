@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/conf/routes
-// @DATE:Sat May 26 21:25:28 COT 2018
+// @DATE:Sun May 27 23:26:57 COT 2018
 
 package controllers;
 
@@ -8,11 +8,13 @@ import router.RoutesPrefix;
 
 public class routes {
   
+  public static final controllers.ReverseControladorPropietario ControladorPropietario = new controllers.ReverseControladorPropietario(RoutesPrefix.byNamePrefix());
   public static final controllers.ReverseHomeController HomeController = new controllers.ReverseHomeController(RoutesPrefix.byNamePrefix());
   public static final controllers.ReverseAssets Assets = new controllers.ReverseAssets(RoutesPrefix.byNamePrefix());
 
   public static class javascript {
     
+    public static final controllers.javascript.ReverseControladorPropietario ControladorPropietario = new controllers.javascript.ReverseControladorPropietario(RoutesPrefix.byNamePrefix());
     public static final controllers.javascript.ReverseHomeController HomeController = new controllers.javascript.ReverseHomeController(RoutesPrefix.byNamePrefix());
     public static final controllers.javascript.ReverseAssets Assets = new controllers.javascript.ReverseAssets(RoutesPrefix.byNamePrefix());
   }

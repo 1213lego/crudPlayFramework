@@ -1,17 +1,15 @@
 @(formularioEstudiante: Form[Estudiante])
 
 @mainMenu("Estudiantes") {
-    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/bootstrap.min.css")">
-    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/bootstrap-theme.min.css")">
-    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("css/style.css")">
+
 
 @helper.form(action=routes.HomeController.crear()){
     <h1>Crear un estudiante</h1>
   @helper.CSRF.formField
-  @helper.inputText(formularioEstudiante("Identificacion"),'class -> "form-control")
-  @helper.inputText(formularioEstudiante("Nombres"),'class -> "form-control")
-  @helper.inputText(formularioEstudiante("Apellidos"),'class ->" form-control")
-  @helper.inputText(formularioEstudiante("Semestre"),'class -> "form-control")
+  @helper.inputText(formularioEstudiante("identificacion"),'class -> "form-control")
+  @helper.inputText(formularioEstudiante("nombres"),'class -> "form-control")
+  @helper.inputText(formularioEstudiante("apellidos"),'class ->" form-control")
+  @helper.inputText(formularioEstudiante("semestre"),'class -> "form-control")
   <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i> Crear Estudiante</button>
 }
     @helper.form(action=routes.HomeController.search()){
@@ -21,8 +19,6 @@
         <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i> Bucar</button>
     }
 
-    <script src="@routes.Assets.versioned("js/jquery-3.3.1.min.js")" type="text/javascript"></script>
-    <script src="@routes.Assets.versioned("js/bootstrap.min.js")" type="text/javascript"></script>
-    <script src="@routes.Assets.versioned("js/custom.js")" type="text/javascript"></script>
+
 
 }

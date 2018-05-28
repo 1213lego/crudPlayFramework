@@ -25,16 +25,17 @@ create table vehiculo (
   modelo                        integer,
   tipo                          varchar(255),
   pasajeros                     integer,
-  constraint uq_vehiculo_propietario_cedula unique (propietario_cedula),
   constraint pk_vehiculo primary key (placa)
 );
 
 alter table vehiculo add constraint fk_vehiculo_propietario_cedula foreign key (propietario_cedula) references propietario (cedula) on delete restrict on update restrict;
+create index ix_vehiculo_propietario_cedula on vehiculo (propietario_cedula);
 
 
 # --- !Downs
 
 alter table if exists vehiculo drop constraint if exists fk_vehiculo_propietario_cedula;
+drop index if exists ix_vehiculo_propietario_cedula;
 
 drop table if exists estudiante cascade;
 

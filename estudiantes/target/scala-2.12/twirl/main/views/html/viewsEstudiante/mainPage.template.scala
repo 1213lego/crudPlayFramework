@@ -32,7 +32,9 @@ object mainPage extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.H
 
 Seq[Any](format.raw/*1.17*/("""
 """),_display_(/*2.2*/mainMenu("Estudiantes")/*2.25*/{_display_(Seq[Any](format.raw/*2.26*/("""
-    """),_display_(/*3.6*/title),format.raw/*3.11*/("""
+        """),format.raw/*3.9*/("""<div class="jumbotron">
+            <h1>"""),_display_(/*4.18*/title),format.raw/*4.23*/("""</h1>
+        </div>
 """)))}))
       }
     }
@@ -49,11 +51,11 @@ Seq[Any](format.raw/*1.17*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sat May 26 23:15:14 COT 2018
+                  DATE: Sun May 27 18:02:42 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsEstudiante/mainPage.scala.html
-                  HASH: c66b9c695cf1f5c163459529ed143194da0a7dba
-                  MATRIX: 967->1|1077->16|1105->19|1136->42|1174->43|1206->50|1231->55
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|35->3
+                  HASH: a094374003df2c3328f4047a12457aada1c22bce
+                  MATRIX: 967->1|1077->16|1105->19|1136->42|1174->43|1210->53|1278->95|1303->100
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|36->4|36->4
                   -- GENERATED --
               */
           

@@ -1,5 +1,6 @@
 package models;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -21,6 +22,14 @@ public class Propietario {
 
     public void setCedula(Long cedula) {
         this.cedula = cedula;
+    }
+
+    public List<Vehiculo> getVehiculoList() {
+        return vehiculoList;
+    }
+
+    public void setVehiculoList(List<Vehiculo> vehiculoList) {
+        this.vehiculoList = vehiculoList;
     }
 
     public String getNombres() {

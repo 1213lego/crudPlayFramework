@@ -3,14 +3,21 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /home                                       controllers.HomeController.mainPage()
-GET     /listado                                    controllers.HomeController.indexList()
-GET     /crear                                      controllers.HomeController.indexCrear()
-POST    /crear                                      controllers.HomeController.crear()
-POST	/search               						controllers.HomeController.search()
-GET     /buscar/:identificacion                     controllers.HomeController.buscar(identificacion : Long)
-GET     /eliminar/:identificacion                   controllers.HomeController.eliminar(identificacion : Long)
+GET     /homeEstudiante                                       controllers.HomeController.mainPage()
+GET     /listadoEstudiante                                    controllers.HomeController.indexList()
+GET     /crearEstudiante                                      controllers.HomeController.indexCrear()
+POST    /crearEstudiante                                      controllers.HomeController.crear()
+POST	/searchEstudiante               						controllers.HomeController.search()
+GET     /buscarEstudiante/:identificacion                     controllers.HomeController.buscar(identificacion : Long)
+GET     /eliminarEstudiante/:identificacion                   controllers.HomeController.eliminar(identificacion : Long)
 
-
+#Propietarios
+GET     /principal                                  controllers.ControladorPropietario.index()
+GET     /crearpropietario                           controllers.ControladorPropietario.indexCrear()
+POST    /crearpropietario                           controllers.ControladorPropietario.crearPropietario()
+GET     /listaPropietarios                          controllers.ControladorPropietario.listaPropietarios()
+GET     /buscarPropietario/cc                       controllers.ControladorPropietario.buscar(cedula : Long)
+GET     /buscarPropietario                          controllers.ControladorPropietario.buscarProp()
+POST    /buscarPropietario                          controllers.ControladorPropietario.buscarRedireccionar()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

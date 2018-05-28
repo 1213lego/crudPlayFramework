@@ -1,12 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:11:66: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
-[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Identificacion",'class -> "form-control"))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:12:59: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
-[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Nombres",'class -> "form-control"))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:13:61: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
-[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Apellidos",'class ->" form-control"))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsEstudiante\indexCrear.scala.html:14:60: too many arguments (2) for method apply: (x$1: String)play.data.Form.Field in class Form[0m
-[0m[[0m[31merror[0m] [0m[0m  @helper.inputText(formularioEstudiante("Semestre",'class -> "form-control"))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsPropietario\mostarPropietario.scala.html:29:71: empty character literal[0m
+[0m[[0m[31merror[0m] [0m[0m                @helper.inputText(formularioPropietarios("apellidos"),''class -> "form-control", 'placeholder -> "apellidos")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsPropietario\mostarPropietario.scala.html:32:8: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m            </div>[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -34,13 +34,12 @@ Seq[Any](format.raw/*1.32*/("""
 """),format.raw/*2.1*/("""<!DOCTYPE html>
 <html lang="en">
     <head>
-        """),format.raw/*5.62*/("""
-        """),format.raw/*6.9*/("""<title>"""),_display_(/*6.17*/title),format.raw/*6.22*/("""</title>
-        <link rel="stylesheet" media="screen" href=""""),_display_(/*7.54*/routes/*7.60*/.Assets.versioned("css/bootstrap.min.css")),format.raw/*7.102*/("""">
-        <link rel="stylesheet" media="screen" href=""""),_display_(/*8.54*/routes/*8.60*/.Assets.versioned("css/bootstrap-theme.min.css")),format.raw/*8.108*/("""">
-        <link rel="stylesheet" media="screen" href=""""),_display_(/*9.54*/routes/*9.60*/.Assets.versioned("css/style.css")),format.raw/*9.94*/("""">
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*10.59*/routes/*10.65*/.Assets.versioned("images/favicon.png")),format.raw/*10.104*/("""">
-
+        <link rel="stylesheet" media="screen" href=""""),_display_(/*5.54*/routes/*5.60*/.Assets.versioned("css/bootstrap.min.css")),format.raw/*5.102*/("""">
+        <link rel="stylesheet" media="screen" href=""""),_display_(/*6.54*/routes/*6.60*/.Assets.versioned("css/bootstrap-theme.min.css")),format.raw/*6.108*/("""">
+        <link rel="stylesheet" media="screen" href=""""),_display_(/*7.54*/routes/*7.60*/.Assets.versioned("css/style.css")),format.raw/*7.94*/("""">
+        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*8.59*/routes/*8.65*/.Assets.versioned("images/favicon.png")),format.raw/*8.104*/("""">
+        """),format.raw/*9.62*/("""
+        """),format.raw/*10.9*/("""<title>"""),_display_(/*10.17*/title),format.raw/*10.22*/("""</title>
     </head>
     <body>
 
@@ -52,15 +51,15 @@ Seq[Any](format.raw/*1.32*/("""
                         <span classs="icon-bar"></span>
                         <span classs="icon-bar"></span>
                     </button>
-                    <a href=""""),_display_(/*23.31*/routes/*23.37*/.HomeController.mainPage()),format.raw/*23.63*/("""" class="navbar-brand">Home</a>
+                    <a href=""""),_display_(/*22.31*/routes/*22.37*/.HomeController.mainPage()),format.raw/*22.63*/("""" class="navbar-brand">Home</a>
                 </div>
                 <div class="collapse navbar-collapse" id="exnav">
                     <ul class="nav navbar-nav navbar-left">
-                        <li><a href=""""),_display_(/*27.39*/routes/*27.45*/.HomeController.indexList()),format.raw/*27.72*/("""">
+                        <li><a href=""""),_display_(/*26.39*/routes/*26.45*/.HomeController.indexList()),format.raw/*26.72*/("""">
                                 <i class="glyphicon glyphicon-list"></i>
                                 Lista Estudiantes</a> </li>
 
-                        <li><a href=""""),_display_(/*31.39*/routes/*31.45*/.HomeController.crear()),format.raw/*31.68*/("""">
+                        <li><a href=""""),_display_(/*30.39*/routes/*30.45*/.HomeController.crear()),format.raw/*30.68*/("""">
                             <i class="glyphicon glyphicon-plus"></i>
                             CrearEstudiante</a> </li>
                     </ul>
@@ -68,15 +67,15 @@ Seq[Any](format.raw/*1.32*/("""
             </div>
         </head>
 
-        """),format.raw/*40.31*/("""
+        """),format.raw/*39.31*/("""
+
         """),format.raw/*41.9*/("""<div class="container">
-        """),_display_(/*42.10*/content),format.raw/*42.17*/("""
-        """),format.raw/*43.9*/("""</div>
+                <h1>"""),_display_(/*42.22*/content),format.raw/*42.29*/("""</h1>
+        </div>
 
-
-        <script src=""""),_display_(/*46.23*/routes/*46.29*/.Assets.versioned("js/jquery-3.3.1.min.js")),format.raw/*46.72*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*47.23*/routes/*47.29*/.Assets.versioned("js/bootstrap.min.js")),format.raw/*47.69*/("""" type="text/javascript"></script>
-        <script src=""""),_display_(/*48.23*/routes/*48.29*/.Assets.versioned("js/custom.js")),format.raw/*48.62*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*45.23*/routes/*45.29*/.Assets.versioned("js/jquery-3.3.1.min.js")),format.raw/*45.72*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*46.23*/routes/*46.29*/.Assets.versioned("js/bootstrap.min.js")),format.raw/*46.69*/("""" type="text/javascript"></script>
+        <script src=""""),_display_(/*47.23*/routes/*47.29*/.Assets.versioned("js/custom.js")),format.raw/*47.62*/("""" type="text/javascript"></script>
     </body>
 </html>
 
@@ -98,11 +97,11 @@ Seq[Any](format.raw/*1.32*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun May 27 00:00:13 COT 2018
+                  DATE: Sun May 27 18:02:42 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsEstudiante/mainMenu.scala.html
-                  HASH: bc91f7f4a7ff5c5d8300b7172c381f7df2924460
-                  MATRIX: 972->1|1097->31|1125->33|1207->141|1243->151|1277->159|1302->164|1391->227|1405->233|1468->275|1551->332|1565->338|1634->386|1717->443|1731->449|1785->483|1874->545|1889->551|1950->590|2456->1069|2471->1075|2518->1101|2768->1324|2783->1330|2831->1357|3037->1536|3052->1542|3096->1565|3351->1882|3388->1892|3449->1926|3477->1933|3514->1943|3575->1977|3590->1983|3654->2026|3739->2084|3754->2090|3815->2130|3900->2188|3915->2194|3969->2227
-                  LINES: 28->1|33->1|34->2|37->5|38->6|38->6|38->6|39->7|39->7|39->7|40->8|40->8|40->8|41->9|41->9|41->9|42->10|42->10|42->10|55->23|55->23|55->23|59->27|59->27|59->27|63->31|63->31|63->31|71->40|72->41|73->42|73->42|74->43|77->46|77->46|77->46|78->47|78->47|78->47|79->48|79->48|79->48
+                  HASH: 935e502f57ae54d39dec5fa6a6d99cd180f301a9
+                  MATRIX: 972->1|1097->31|1125->33|1251->133|1265->139|1328->181|1411->238|1425->244|1494->292|1577->349|1591->355|1645->389|1733->451|1747->457|1807->496|1846->561|1883->571|1918->579|1944->584|2454->1067|2469->1073|2516->1099|2766->1322|2781->1328|2829->1355|3035->1534|3050->1540|3094->1563|3349->1880|3388->1892|3461->1938|3489->1945|3563->1992|3578->1998|3642->2041|3727->2099|3742->2105|3803->2145|3888->2203|3903->2209|3957->2242
+                  LINES: 28->1|33->1|34->2|37->5|37->5|37->5|38->6|38->6|38->6|39->7|39->7|39->7|40->8|40->8|40->8|41->9|42->10|42->10|42->10|54->22|54->22|54->22|58->26|58->26|58->26|62->30|62->30|62->30|70->39|72->41|73->42|73->42|76->45|76->45|76->45|77->46|77->46|77->46|78->47|78->47|78->47
                   -- GENERATED --
               */
           
