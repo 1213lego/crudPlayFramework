@@ -35,4 +35,33 @@
         </div>
 
     </div>
+
+    <div class="jumbotron">
+
+        <h1>Vehiculos vinculados al Propietario</h1>
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Placa</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Pasajeros</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+            @for(vehiculos <- propietario.getVehiculoList()){
+                <tr>
+                    <th scope="row"><a class="glyphicon glyphicon-eye-open" href="@routes.ControladorVehiculo.buscarVehiculo(vehiculos.getPlaca)">@vehiculos.getPlaca()</a></th>
+                    <td>@vehiculos.getMarca</td>
+                    <td>@vehiculos.getModelo</td>
+                    <td>@vehiculos.getTipo</td>
+                    <td>@vehiculos.getPasajeros</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
 }

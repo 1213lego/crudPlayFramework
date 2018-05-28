@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/conf/routes
-// @DATE:Mon May 28 12:54:50 COT 2018
+// @DATE:Mon May 28 14:40:35 COT 2018
 
 package router
 
@@ -20,7 +20,7 @@ class Routes(
   ControladorPropietario_3: controllers.ControladorPropietario,
   // @LINE:26
   ControladorVehiculo_2: controllers.ControladorVehiculo,
-  // @LINE:34
+  // @LINE:36
   Assets_1: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -33,7 +33,7 @@ class Routes(
     ControladorPropietario_3: controllers.ControladorPropietario,
     // @LINE:26
     ControladorVehiculo_2: controllers.ControladorVehiculo,
-    // @LINE:34
+    // @LINE:36
     Assets_1: controllers.Assets
   ) = this(errorHandler, HomeController_0, ControladorPropietario_3, ControladorVehiculo_2, Assets_1, "/")
 
@@ -70,6 +70,7 @@ class Routes(
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """modificarvehiculo""", """controllers.ControladorVehiculo.modificarvehiculo(placa:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """buscarVehiculo""", """controllers.ControladorVehiculo.formularioBuscarVehiculo()"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """buscarVehiculo""", """controllers.ControladorVehiculo.formBuscarVehiculo()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """eliminarVehiculo""", """controllers.ControladorVehiculo.eliminarVehiculo(placa:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -492,11 +493,29 @@ class Routes(
     )
   )
 
-  // @LINE:34
-  private[this] lazy val controllers_Assets_versioned23_route = Route("GET",
+  // @LINE:33
+  private[this] lazy val controllers_ControladorVehiculo_eliminarVehiculo23_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("eliminarVehiculo")))
+  )
+  private[this] lazy val controllers_ControladorVehiculo_eliminarVehiculo23_invoker = createInvoker(
+    ControladorVehiculo_2.eliminarVehiculo(fakeValue[String]),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.ControladorVehiculo",
+      "eliminarVehiculo",
+      Seq(classOf[String]),
+      "GET",
+      this.prefix + """eliminarVehiculo""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:36
+  private[this] lazy val controllers_Assets_versioned24_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned23_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned24_invoker = createInvoker(
     Assets_1.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -651,10 +670,16 @@ class Routes(
         controllers_ControladorVehiculo_formBuscarVehiculo22_invoker.call(ControladorVehiculo_2.formBuscarVehiculo())
       }
   
-    // @LINE:34
-    case controllers_Assets_versioned23_route(params@_) =>
+    // @LINE:33
+    case controllers_ControladorVehiculo_eliminarVehiculo23_route(params@_) =>
+      call(params.fromQuery[String]("placa", None)) { (placa) =>
+        controllers_ControladorVehiculo_eliminarVehiculo23_invoker.call(ControladorVehiculo_2.eliminarVehiculo(placa))
+      }
+  
+    // @LINE:36
+    case controllers_Assets_versioned24_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned23_invoker.call(Assets_1.versioned(path, file))
+        controllers_Assets_versioned24_invoker.call(Assets_1.versioned(path, file))
       }
   }
 }

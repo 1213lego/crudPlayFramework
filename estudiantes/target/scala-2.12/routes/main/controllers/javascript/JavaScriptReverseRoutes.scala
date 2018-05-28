@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/conf/routes
-// @DATE:Mon May 28 12:54:50 COT 2018
+// @DATE:Mon May 28 14:40:35 COT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -191,7 +191,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:34
+  // @LINE:36
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -199,7 +199,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:34
+    // @LINE:36
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -265,6 +265,16 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "crearVehiculo"})
+        }
+      """
+    )
+  
+    // @LINE:33
+    def eliminarVehiculo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.eliminarVehiculo",
+      """
+        function(placa0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "eliminarVehiculo" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("placa", placa0)])})
         }
       """
     )

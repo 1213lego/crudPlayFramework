@@ -32,32 +32,40 @@ object listaVehiculos extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl
 
 Seq[Any](format.raw/*1.35*/("""
 """),_display_(/*2.2*/main("Lista Propietarios")/*2.28*/{_display_(Seq[Any](format.raw/*2.29*/("""
-    """),format.raw/*3.5*/("""<table class="table table-bordered table-dark">
-        <thead>
-            <tr>
-                <th scope="col">Placa</th>
-                <th scope="col">Cedula Propietario</th>
-                <th scope="col">Marca</th>
-                <th scope="col">Modelo</th>
-                <th scope="col">Tipo</th>
-                <th scope="col">Cantidad Pasajeros</th>
-            </tr>
-        </thead>
-        <tbody>
 
+    """),format.raw/*4.5*/("""<div class="jumbotron">
 
-            """),_display_(/*17.14*/for(p <- listaVehiculos) yield /*17.38*/{_display_(Seq[Any](format.raw/*17.39*/("""
-                """),format.raw/*18.17*/("""<tr>
-                    <th scope="row"><a class="glyphicon glyphicon-eye-open" href=""""),_display_(/*19.84*/routes/*19.90*/.ControladorVehiculo.buscarVehiculo(p.getPlaca)),format.raw/*19.137*/("""">"""),_display_(/*19.140*/p/*19.141*/.getPlaca),format.raw/*19.150*/("""</a></th>
-                    <td><a class="glyphicon glyphicon-eye-open" href=""""),_display_(/*20.72*/routes/*20.78*/.ControladorPropietario.buscar(p.getPropietario().getCedula())),format.raw/*20.140*/("""">"""),_display_(/*20.143*/p/*20.144*/.getPropietario().getCedula()),format.raw/*20.173*/("""</a></td>
-                    <td>"""),_display_(/*21.26*/p/*21.27*/.getMarca),format.raw/*21.36*/("""</td>
-                    <td>"""),_display_(/*22.26*/p/*22.27*/.getModelo),format.raw/*22.37*/("""</td>
-                    <td>"""),_display_(/*23.26*/p/*23.27*/.getTipo),format.raw/*23.35*/("""</td>
-                    <td>"""),_display_(/*24.26*/p/*24.27*/.getPasajeros),format.raw/*24.40*/("""</td>
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Placa</th>
+                    <th scope="col">Cedula Propietario</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Cantidad Pasajeros</th>
                 </tr>
-            """)))}),format.raw/*26.14*/("""
-        """),format.raw/*27.9*/("""</tbody>
-    </table>
+            </thead>
+            <tbody>
+
+
+            """),_display_(/*20.14*/for(p <- listaVehiculos) yield /*20.38*/{_display_(Seq[Any](format.raw/*20.39*/("""
+                """),format.raw/*21.17*/("""<tr>
+                    <th scope="row"><a class="glyphicon glyphicon-eye-open" href=""""),_display_(/*22.84*/routes/*22.90*/.ControladorVehiculo.buscarVehiculo(p.getPlaca)),format.raw/*22.137*/("""">"""),_display_(/*22.140*/p/*22.141*/.getPlaca),format.raw/*22.150*/("""</a></th>
+                    <td><a class="glyphicon glyphicon-eye-open" href=""""),_display_(/*23.72*/routes/*23.78*/.ControladorPropietario.buscar(p.getPropietario().getCedula())),format.raw/*23.140*/("""">"""),_display_(/*23.143*/p/*23.144*/.getPropietario().getCedula()),format.raw/*23.173*/("""</a></td>
+                    <td>"""),_display_(/*24.26*/p/*24.27*/.getMarca),format.raw/*24.36*/("""</td>
+                    <td>"""),_display_(/*25.26*/p/*25.27*/.getModelo),format.raw/*25.37*/("""</td>
+                    <td>"""),_display_(/*26.26*/p/*26.27*/.getTipo),format.raw/*26.35*/("""</td>
+                    <td>"""),_display_(/*27.26*/p/*27.27*/.getPasajeros),format.raw/*27.40*/("""</td>
+                </tr>
+            """)))}),format.raw/*29.14*/("""
+            """),format.raw/*30.13*/("""</tbody>
+        </table>
+
+
+    </div>
+
+
 """)))}))
       }
     }
@@ -74,11 +82,11 @@ Seq[Any](format.raw/*1.35*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon May 28 12:34:40 COT 2018
+                  DATE: Mon May 28 13:13:36 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsVehiculo/listaVehiculos.scala.html
-                  HASH: 9dabbe543af7e8389d13d8835d22d211eb5c1b6f
-                  MATRIX: 979->1|1107->34|1135->37|1169->63|1207->64|1239->70|1711->515|1751->539|1790->540|1836->558|1952->647|1967->653|2036->700|2067->703|2078->704|2109->713|2218->795|2233->801|2317->863|2348->866|2359->867|2410->896|2473->932|2483->933|2513->942|2572->974|2582->975|2613->985|2672->1017|2682->1018|2711->1026|2770->1058|2780->1059|2814->1072|2888->1115|2925->1125
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|49->17|49->17|49->17|50->18|51->19|51->19|51->19|51->19|51->19|51->19|52->20|52->20|52->20|52->20|52->20|52->20|53->21|53->21|53->21|54->22|54->22|54->22|55->23|55->23|55->23|56->24|56->24|56->24|58->26|59->27
+                  HASH: e1a27a3b5577f4c2c27e539a540acb186b8160f5
+                  MATRIX: 979->1|1107->34|1135->37|1169->63|1207->64|1241->72|1792->596|1832->620|1871->621|1917->639|2033->728|2048->734|2117->781|2148->784|2159->785|2190->794|2299->876|2314->882|2398->944|2429->947|2440->948|2491->977|2554->1013|2564->1014|2594->1023|2653->1055|2663->1056|2694->1066|2753->1098|2763->1099|2792->1107|2851->1139|2861->1140|2895->1153|2969->1196|3011->1210
+                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4|52->20|52->20|52->20|53->21|54->22|54->22|54->22|54->22|54->22|54->22|55->23|55->23|55->23|55->23|55->23|55->23|56->24|56->24|56->24|57->25|57->25|57->25|58->26|58->26|58->26|59->27|59->27|59->27|61->29|62->30
                   -- GENERATED --
               */
           

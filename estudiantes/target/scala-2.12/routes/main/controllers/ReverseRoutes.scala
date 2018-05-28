@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/conf/routes
-// @DATE:Mon May 28 12:54:50 COT 2018
+// @DATE:Mon May 28 14:40:35 COT 2018
 
 import play.api.mvc.Call
 
@@ -125,14 +125,14 @@ package controllers {
   
   }
 
-  // @LINE:34
+  // @LINE:36
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:34
+    // @LINE:36
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
@@ -175,6 +175,12 @@ package controllers {
     def indexCrearVehiculo(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "crearVehiculo")
+    }
+  
+    // @LINE:33
+    def eliminarVehiculo(placa:String): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "eliminarVehiculo" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("placa", placa)))))
     }
   
     // @LINE:29

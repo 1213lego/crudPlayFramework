@@ -32,26 +32,33 @@ object listaPropietarios extends _root_.play.twirl.api.BaseScalaTemplate[play.tw
 
 Seq[Any](format.raw/*1.41*/("""
 """),_display_(/*2.2*/main("Lista Propietarios")/*2.28*/{_display_(Seq[Any](format.raw/*2.29*/("""
-    """),format.raw/*3.5*/("""<table class="table table-bordered table-dark">
-        <thead>
-            <tr>
-                <th scope="col">Cedula</th>
-                <th scope="col">Nombres</th>
-                <th scope="col">Apellidos</th>
-            </tr>
-        </thead>
-        <tbody>
 
+    """),format.raw/*4.5*/("""<div class="jumbotron">
 
-            """),_display_(/*14.14*/for(p <- listaPropietarios) yield /*14.41*/{_display_(Seq[Any](format.raw/*14.42*/("""
-                """),format.raw/*15.17*/("""<tr>
-                    <th scope="row"><a class="glyphicon glyphicon-eye-open" href=""""),_display_(/*16.84*/routes/*16.90*/.ControladorPropietario.buscar(p.getCedula)),format.raw/*16.133*/("""">"""),_display_(/*16.136*/p/*16.137*/.getCedula),format.raw/*16.147*/("""</a></th>
-                    <td>"""),_display_(/*17.26*/p/*17.27*/.getNombres),format.raw/*17.38*/("""</td>
-                    <td>"""),_display_(/*18.26*/p/*18.27*/.getApellidos),format.raw/*18.40*/("""</td>
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Cedula</th>
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
                 </tr>
-            """)))}),format.raw/*20.14*/("""
-        """),format.raw/*21.9*/("""</tbody>
-    </table>
+            </thead>
+            <tbody>
+
+
+            """),_display_(/*17.14*/for(p <- listaPropietarios) yield /*17.41*/{_display_(Seq[Any](format.raw/*17.42*/("""
+                """),format.raw/*18.17*/("""<tr>
+                    <th scope="row"><a class="glyphicon glyphicon-eye-open" href=""""),_display_(/*19.84*/routes/*19.90*/.ControladorPropietario.buscar(p.getCedula)),format.raw/*19.133*/("""">"""),_display_(/*19.136*/p/*19.137*/.getCedula),format.raw/*19.147*/("""</a></th>
+                    <td>"""),_display_(/*20.26*/p/*20.27*/.getNombres),format.raw/*20.38*/("""</td>
+                    <td>"""),_display_(/*21.26*/p/*21.27*/.getApellidos),format.raw/*21.40*/("""</td>
+                </tr>
+            """)))}),format.raw/*23.14*/("""
+            """),format.raw/*24.13*/("""</tbody>
+        </table>
+
+
+    </div>
+
 """)))}))
       }
     }
@@ -68,11 +75,11 @@ Seq[Any](format.raw/*1.41*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun May 27 23:31:10 COT 2018
+                  DATE: Mon May 28 13:12:22 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsPropietario/listaPropietarios.scala.html
-                  HASH: c38a755a35470491f75bacc3f498c6d027053df7
-                  MATRIX: 988->1|1122->40|1150->43|1184->69|1222->70|1254->76|1575->370|1618->397|1657->398|1703->416|1819->505|1834->511|1899->554|1930->557|1941->558|1973->568|2036->604|2046->605|2078->616|2137->648|2147->649|2181->662|2255->705|2292->715
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|46->14|46->14|46->14|47->15|48->16|48->16|48->16|48->16|48->16|48->16|49->17|49->17|49->17|50->18|50->18|50->18|52->20|53->21
+                  HASH: 8d28edb8bae547c1a17d96ca39b28d001fd3e268
+                  MATRIX: 988->1|1122->40|1150->43|1184->69|1222->70|1256->78|1644->439|1687->466|1726->467|1772->485|1888->574|1903->580|1968->623|1999->626|2010->627|2042->637|2105->673|2115->674|2147->685|2206->717|2216->718|2250->731|2324->774|2366->788
+                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4|49->17|49->17|49->17|50->18|51->19|51->19|51->19|51->19|51->19|51->19|52->20|52->20|52->20|53->21|53->21|53->21|55->23|56->24
                   -- GENERATED --
               */
           

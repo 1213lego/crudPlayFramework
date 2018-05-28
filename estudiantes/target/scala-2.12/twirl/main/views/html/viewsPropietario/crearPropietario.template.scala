@@ -32,13 +32,21 @@ object crearPropietario extends _root_.play.twirl.api.BaseScalaTemplate[play.twi
 
 Seq[Any](format.raw/*1.45*/("""
 """),_display_(/*2.2*/main("Crear Propietarios")/*2.28*/{_display_(Seq[Any](format.raw/*2.29*/("""
-    """),_display_(/*3.6*/helper/*3.12*/.form(action=routes.ControladorPropietario.crearPropietario())/*3.74*/{_display_(Seq[Any](format.raw/*3.75*/("""
-        """),_display_(/*4.10*/helper/*4.16*/.CSRF.formField),format.raw/*4.31*/("""
-        """),_display_(/*5.10*/helper/*5.16*/.inputText(formularioPropietarios("cedula"),'class -> "form-control", 'placeholder -> "cedula")),format.raw/*5.111*/("""
-        """),_display_(/*6.10*/helper/*6.16*/.inputText(formularioPropietarios("nombres"),'class ->" form-control",'placeholder -> "nombre" )),format.raw/*6.112*/("""
-        """),_display_(/*7.10*/helper/*7.16*/.inputText(formularioPropietarios("apellidos"),'class ->" form-control",'placeholder -> "apellidos" )),format.raw/*7.117*/("""
-        """),format.raw/*8.9*/("""<button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i>Crear Propietario</button>
-    """)))}),format.raw/*9.6*/("""
+
+
+    """),format.raw/*5.5*/("""<div class="jumbotron">
+
+    """),_display_(/*7.6*/helper/*7.12*/.form(action=routes.ControladorPropietario.crearPropietario())/*7.74*/{_display_(Seq[Any](format.raw/*7.75*/("""
+        """),_display_(/*8.10*/helper/*8.16*/.CSRF.formField),format.raw/*8.31*/("""
+        """),_display_(/*9.10*/helper/*9.16*/.inputText(formularioPropietarios("cedula"),'class -> "form-control", 'placeholder -> "cedula")),format.raw/*9.111*/("""
+        """),_display_(/*10.10*/helper/*10.16*/.inputText(formularioPropietarios("nombres"),'class ->" form-control",'placeholder -> "nombre" )),format.raw/*10.112*/("""
+        """),_display_(/*11.10*/helper/*11.16*/.inputText(formularioPropietarios("apellidos"),'class ->" form-control",'placeholder -> "apellidos" )),format.raw/*11.117*/("""
+        """),format.raw/*12.9*/("""<button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i>Crear Propietario</button>
+    """)))}),format.raw/*13.6*/("""
+
+
+    """),format.raw/*16.5*/("""</div>
+
 """)))}))
       }
     }
@@ -55,11 +63,11 @@ Seq[Any](format.raw/*1.45*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon May 28 00:00:05 COT 2018
+                  DATE: Mon May 28 14:26:04 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsPropietario/crearPropietario.scala.html
-                  HASH: 395cb7273df490fc4bcd8e30244c7360c2a61827
-                  MATRIX: 987->1|1125->44|1153->47|1187->73|1225->74|1257->81|1271->87|1341->149|1379->150|1416->161|1430->167|1465->182|1502->193|1516->199|1632->294|1669->305|1683->311|1800->407|1837->418|1851->424|1973->525|2009->535|2157->654
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|35->3|35->3|35->3|36->4|36->4|36->4|37->5|37->5|37->5|38->6|38->6|38->6|39->7|39->7|39->7|40->8|41->9
+                  HASH: df156275e7fbad87f5ac746f1c20565e19c810c0
+                  MATRIX: 987->1|1125->44|1153->47|1187->73|1225->74|1261->84|1318->116|1332->122|1402->184|1440->185|1477->196|1491->202|1526->217|1563->228|1577->234|1693->329|1731->340|1746->346|1864->442|1902->453|1917->459|2040->560|2077->570|2226->689|2263->699
+                  LINES: 28->1|33->1|34->2|34->2|34->2|37->5|39->7|39->7|39->7|39->7|40->8|40->8|40->8|41->9|41->9|41->9|42->10|42->10|42->10|43->11|43->11|43->11|44->12|45->13|48->16
                   -- GENERATED --
               */
           

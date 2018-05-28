@@ -1,14 +1,17 @@
 @(listaPropietarios : List[Propietario])
 @main("Lista Propietarios"){
-    <table class="table table-bordered table-dark">
-        <thead>
-            <tr>
-                <th scope="col">Cedula</th>
-                <th scope="col">Nombres</th>
-                <th scope="col">Apellidos</th>
-            </tr>
-        </thead>
-        <tbody>
+
+    <div class="jumbotron">
+
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Cedula</th>
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
+                </tr>
+            </thead>
+            <tbody>
 
 
             @for(p <- listaPropietarios){
@@ -18,6 +21,10 @@
                     <td>@p.getApellidos</td>
                 </tr>
             }
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+
+
+    </div>
+
 }

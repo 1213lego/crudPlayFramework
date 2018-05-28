@@ -1,5 +1,9 @@
 @(formularioPropietarios: Form[Propietario])
 @main("Crear Propietarios"){
+
+
+    <div class="jumbotron">
+
     @helper.form(action=routes.ControladorPropietario.crearPropietario()){
         @helper.CSRF.formField
         @helper.inputText(formularioPropietarios("cedula"),'class -> "form-control", 'placeholder -> "cedula")
@@ -7,4 +11,8 @@
         @helper.inputText(formularioPropietarios("apellidos"),'class ->" form-control",'placeholder -> "apellidos" )
         <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i>Crear Propietario</button>
     }
+
+
+    </div>
+
 }

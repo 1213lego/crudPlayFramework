@@ -32,8 +32,9 @@ object mainPage extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.H
 
 Seq[Any](format.raw/*1.14*/("""
 """),_display_(/*2.2*/main(s)/*2.9*/{_display_(Seq[Any](format.raw/*2.10*/("""
-    """),format.raw/*3.5*/("""<div class="jumbotron">
-        <h1>"""),_display_(/*4.14*/s),format.raw/*4.15*/("""</h1>
+
+    """),format.raw/*4.5*/("""<div class="jumbotron">
+        <h1>"""),_display_(/*5.14*/s),format.raw/*5.15*/("""</h1>
     </div>
 """)))}))
       }
@@ -51,11 +52,11 @@ Seq[Any](format.raw/*1.14*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sun May 27 18:35:39 COT 2018
+                  DATE: Mon May 28 14:31:12 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/mainPage.scala.html
-                  HASH: dbabe314210426ec24eae56dfd744dbe1dc9bbbe
-                  MATRIX: 951->1|1058->13|1086->16|1100->23|1138->24|1170->30|1234->68|1255->69
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|36->4|36->4
+                  HASH: 873fe7f4e79c7b26b4ca686900ae379d56b15148
+                  MATRIX: 951->1|1058->13|1086->16|1100->23|1138->24|1172->32|1236->70|1257->71
+                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4|37->5|37->5
                   -- GENERATED --
               */
           

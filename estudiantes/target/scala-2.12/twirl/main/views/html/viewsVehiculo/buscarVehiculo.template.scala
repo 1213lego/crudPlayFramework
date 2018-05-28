@@ -32,11 +32,17 @@ object buscarVehiculo extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl
 
 Seq[Any](format.raw/*1.39*/("""
 """),_display_(/*2.2*/main("Buscar Propietario")/*2.28*/{_display_(Seq[Any](format.raw/*2.29*/("""
-    """),_display_(/*3.6*/helper/*3.12*/.form(action=routes.ControladorVehiculo.formBuscarVehiculo())/*3.73*/{_display_(Seq[Any](format.raw/*3.74*/("""
-        """),_display_(/*4.10*/helper/*4.16*/.CSRF.formField),format.raw/*4.31*/("""
-        """),_display_(/*5.10*/helper/*5.16*/.inputText(formularioVehiculos("placa"),'class -> "form-control", 'placeholder -> "placa")),format.raw/*5.106*/("""
-        """),format.raw/*6.9*/("""<button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i>Buscar Vehiculo</button>
-    """)))}),format.raw/*7.6*/("""
+
+
+    """),format.raw/*5.5*/("""<div class="jumbotron">
+    """),_display_(/*6.6*/helper/*6.12*/.form(action=routes.ControladorVehiculo.formBuscarVehiculo())/*6.73*/{_display_(Seq[Any](format.raw/*6.74*/("""
+        """),_display_(/*7.10*/helper/*7.16*/.CSRF.formField),format.raw/*7.31*/("""
+        """),_display_(/*8.10*/helper/*8.16*/.inputText(formularioVehiculos("placa"),'class -> "form-control", 'placeholder -> "placa")),format.raw/*8.106*/("""
+        """),format.raw/*9.9*/("""<button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i>Buscar Vehiculo</button>
+    """)))}),format.raw/*10.6*/("""
+
+    """),format.raw/*12.5*/("""</div>
+
 """)))}))
       }
     }
@@ -53,11 +59,11 @@ Seq[Any](format.raw/*1.39*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon May 28 12:56:20 COT 2018
+                  DATE: Mon May 28 15:07:59 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsVehiculo/buscarVehiculo.scala.html
-                  HASH: 47dc9dc5e0c8677230341f5467e419728bebc62c
-                  MATRIX: 979->1|1111->38|1139->41|1173->67|1211->68|1243->75|1257->81|1326->142|1364->143|1401->154|1415->160|1450->175|1487->186|1501->192|1612->282|1648->292|1796->411
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|35->3|35->3|35->3|36->4|36->4|36->4|37->5|37->5|37->5|38->6|39->7
+                  HASH: e59194322b5f0d66e57ac8de53d94b7ef717b399
+                  MATRIX: 979->1|1111->38|1139->41|1173->67|1211->68|1247->78|1302->108|1316->114|1385->175|1423->176|1460->187|1474->193|1509->208|1546->219|1560->225|1671->315|1707->325|1856->444|1891->452
+                  LINES: 28->1|33->1|34->2|34->2|34->2|37->5|38->6|38->6|38->6|38->6|39->7|39->7|39->7|40->8|40->8|40->8|41->9|42->10|44->12
                   -- GENERATED --
               */
           
