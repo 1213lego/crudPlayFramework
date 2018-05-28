@@ -19,5 +19,16 @@ GET     /listaPropietarios                          controllers.ControladorPropi
 GET     /buscarPropietario/cc                       controllers.ControladorPropietario.buscar(cedula : Long)
 GET     /buscarPropietario                          controllers.ControladorPropietario.buscarProp()
 POST    /buscarPropietario                          controllers.ControladorPropietario.buscarRedireccionar()
+POST   /modificarPropietario                        controllers.ControladorPropietario.modificar(cedula : Long)
+GET   /eliminarPropietario                         controllers.ControladorPropietario.eliminar(cedula : Long)
+
+#Vehiculos
+GET   /listaVehiculos                               controllers.ControladorVehiculo.listaVehiculos()
+GET   /crearVehiculo                                controllers.ControladorVehiculo.indexCrearVehiculo()
+POST  /crearVehiculo                                controllers.ControladorVehiculo.crearVehiculo()
+GET   /buscarVehiculo/placa                         controllers.ControladorVehiculo.buscarVehiculo(placa : String)
+POST  /modificarvehiculo                            controllers.ControladorVehiculo.modificarvehiculo(placa : String)
+GET   /buscarVehiculo                               controllers.ControladorVehiculo.formularioBuscarVehiculo()
+POST  /buscarVehiculo                               controllers.ControladorVehiculo.formBuscarVehiculo()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

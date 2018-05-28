@@ -1,0 +1,13 @@
+@(formularioVehiculos: Form[Vehiculo])
+@main("Crear Propietarios"){
+    @helper.form(action=routes.ControladorVehiculo.crearVehiculo()){
+        @helper.CSRF.formField
+        @helper.inputText(formularioVehiculos("placa"),'class -> "form-control", 'placeholder -> "placa")
+        @helper.inputText(formularioVehiculos("cc propietario"),'class ->" form-control",'placeholder -> "cedula propietario" )
+        @helper.inputText(formularioVehiculos("marca"),'class ->" form-control",'placeholder -> "marca" )
+        @helper.inputText(formularioVehiculos("modelo"),'class ->" form-control",'placeholder -> "modelo" )
+        @helper.inputText(formularioVehiculos("tipo"),'class ->" form-control",'placeholder -> "tipo" )
+        @helper.inputText(formularioVehiculos("cantidad pasajeros"),'class ->" form-control",'placeholder -> "cantidad" )
+        <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i>Crear Vehiculo</button>
+    }
+}

@@ -1,0 +1,29 @@
+@(listaVehiculos : List[Vehiculo])
+@main("Lista Propietarios"){
+    <table class="table table-bordered table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Placa</th>
+                <th scope="col">Cedula Propietario</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Cantidad Pasajeros</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            @for(p <- listaVehiculos){
+                <tr>
+                    <th scope="row"><a class="glyphicon glyphicon-eye-open" href="@routes.ControladorVehiculo.buscarVehiculo(p.getPlaca)">@p.getPlaca</a></th>
+                    <td><a class="glyphicon glyphicon-eye-open" href="@routes.ControladorPropietario.buscar(p.getPropietario().getCedula())">@p.getPropietario().getCedula()</a></td>
+                    <td>@p.getMarca</td>
+                    <td>@p.getModelo</td>
+                    <td>@p.getTipo</td>
+                    <td>@p.getPasajeros</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

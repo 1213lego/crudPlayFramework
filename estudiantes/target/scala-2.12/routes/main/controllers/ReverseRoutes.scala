@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/conf/routes
-// @DATE:Sun May 27 23:26:57 COT 2018
+// @DATE:Mon May 28 12:54:50 COT 2018
 
 import play.api.mvc.Call
 
@@ -42,6 +42,12 @@ package controllers {
       Call("POST", _prefix + { _defaultPrefix } + "buscarPropietario")
     }
   
+    // @LINE:23
+    def eliminar(cedula:Long): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "eliminarPropietario" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[Long]].unbind("cedula", cedula)))))
+    }
+  
     // @LINE:18
     def listaPropietarios(): Call = {
       
@@ -52,6 +58,12 @@ package controllers {
     def buscarProp(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "buscarPropietario")
+    }
+  
+    // @LINE:22
+    def modificar(cedula:Long): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "modificarPropietario" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[Long]].unbind("cedula", cedula)))))
     }
   
     // @LINE:15
@@ -113,17 +125,68 @@ package controllers {
   
   }
 
-  // @LINE:23
+  // @LINE:34
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:23
+    // @LINE:34
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
+    }
+  
+  }
+
+  // @LINE:26
+  class ReverseControladorVehiculo(_prefix: => String) {
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:30
+    def modificarvehiculo(placa:String): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "modificarvehiculo" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("placa", placa)))))
+    }
+  
+    // @LINE:28
+    def crearVehiculo(): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "crearVehiculo")
+    }
+  
+    // @LINE:32
+    def formBuscarVehiculo(): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "buscarVehiculo")
+    }
+  
+    // @LINE:31
+    def formularioBuscarVehiculo(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "buscarVehiculo")
+    }
+  
+    // @LINE:27
+    def indexCrearVehiculo(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "crearVehiculo")
+    }
+  
+    // @LINE:29
+    def buscarVehiculo(placa:String): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "buscarVehiculo/placa" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("placa", placa)))))
+    }
+  
+    // @LINE:26
+    def listaVehiculos(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "listaVehiculos")
     }
   
   }

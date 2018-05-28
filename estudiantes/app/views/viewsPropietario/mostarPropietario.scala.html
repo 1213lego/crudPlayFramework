@@ -15,20 +15,20 @@
          @*       <h4> <a class="glyphicon glyphicon-trash" href="#"> Eliminar </a> </h4>  *@
                 <p>    </p>
                 <p>    </p>
-                <a class="btn btn-success" href="#" contenteditable="false">
+                <a class="btn btn-success" href="@routes.ControladorPropietario.eliminar(propietario.getCedula())" contenteditable="false">
                     <i class="glyphicon glyphicon-trash"></i>
                     Eliminar
                 </a>
 
             </div>
             <div class="col-sm-8">
-            @helper.form(action = routes.ControladorPropietario.index()){
+            @helper.form(action = routes.ControladorPropietario.modificar(propietario.getCedula)){
                 @helper.CSRF.formField
-                <p class="h2">Cedula: @propietario.getCedula</p>
-                @helper.inputText(formularioPropietarios("nombres"),'class -> "form-control", 'placeholder -> "nombres",'readonly ->"true").body -> propietario.getNombres
-                @helper.inputText(formularioPropietarios("apellidos"),'class -> "form-control", 'placeholder -> "apellidos").text -> propietario.getApellidos
+                @helper.inputText(formularioPropietarios("cedula"),'class -> "form-control", 'placeholder -> propietario.getCedula, 'readonly ->"true")
+                @helper.inputText(formularioPropietarios("nombres"),'class -> "form-control", 'placeholder -> "nombres")
+                @helper.inputText(formularioPropietarios("apellidos"),'class -> "form-control", 'placeholder -> "apellidos")
 
-          @*      @helper.inputText(formularioPropietarios("someValue"), '_label -> "Some Value", 'readonly -> "readonly",'content -> propietario.getNombres) *@
+            @*   @helper.inputText(formularioPropietarios("someValue"), '_label -> "Some Value", 'readonly -> "readonly",'content -> propietario.getNombres, 'text ->propietario.getNombres) *@
                 <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-edit"></i>Modificar</button>
             }
             </div>

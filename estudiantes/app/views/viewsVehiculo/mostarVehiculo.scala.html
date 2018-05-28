@@ -1,0 +1,45 @@
+@(vehiculo: Vehiculo, formularioVehiculos : Form[Vehiculo])
+@main("Busqueda Propietarios"){
+    <div class="jumbotron">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>    </p>
+                    <p class="h2">Placa: @vehiculo.getPlaca</p>
+                    <p class="h2">Cedula: @vehiculo.getPropietario().getCedula</p>
+                    <p class="display-4">Marca: @vehiculo.getMarca</p>
+                    <p class="display-4">Modelo: @vehiculo.getModelo</p>
+                    <p class="display-4">Tipo: @vehiculo.getTipo</p>
+                    <p class="display-4">Marca: @vehiculo.getMarca</p>
+                    <p class="display-4">Pasajeros: @vehiculo.getPasajeros</p>
+
+                    @*       <h4> <a class="glyphicon glyphicon-trash" href="#"> Eliminar </a> </h4>  *@
+                    <p>    </p>
+                    <p>    </p>
+                    <a class="btn btn-success" href="#" contenteditable="false">
+                        <i class="glyphicon glyphicon-trash"></i>
+                        Eliminar
+                    </a>
+
+                </div>
+
+                <div class="col-sm-6">
+                @helper.form(action = routes.ControladorVehiculo.modificarvehiculo(vehiculo.getPlaca())){
+                    @helper.CSRF.formField
+                    @helper.CSRF.formField
+                    @helper.inputText(formularioVehiculos("placa"),'class -> "form-control", 'placeholder -> vehiculo.getPlaca, 'readonly ->"true")
+                    @helper.inputText(formularioVehiculos("cc propietario"),'class ->" form-control",'placeholder -> vehiculo.getPropietario().getCedula(), 'readonly ->"true")
+                    @helper.inputText(formularioVehiculos("marca"),'class ->" form-control",'placeholder -> "marca" )
+                    @helper.inputText(formularioVehiculos("modelo"),'class ->" form-control",'placeholder -> "modelo" )
+                    @helper.inputText(formularioVehiculos("tipo"),'class ->" form-control",'placeholder -> "tipo" )
+                    @helper.inputText(formularioVehiculos("cantidad pasajeros"),'class ->" form-control",'placeholder -> "cantidad" )
+
+                    <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-edit"></i>Modificar</button>
+                }
+                </div>
+
+            </div>
+
+    </div>
+
+}

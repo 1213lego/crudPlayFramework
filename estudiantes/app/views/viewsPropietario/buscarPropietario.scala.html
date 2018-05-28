@@ -3,6 +3,6 @@
     @helper.form(action=routes.ControladorPropietario.buscarRedireccionar()){
         @helper.CSRF.formField
         @helper.inputText(formularioPropietarios("cedula"),'class -> "form-control")
-        <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i>Buscar Propietario</button>
+        <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i>Buscar Propietario</button>
     }
 }

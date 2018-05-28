@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsPropietario\mostarPropietario.scala.html:29:71: empty character literal[0m
-[0m[[0m[31merror[0m] [0m[0m                @helper.inputText(formularioPropietarios("apellidos"),''class -> "form-control", 'placeholder -> "apellidos")[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsPropietario\mostarPropietario.scala.html:32:8: ')' expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m            </div>[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ss\Desktop\Estructura de datos\sbt\estudiantes\app\views\viewsVehiculo\listaVehiculos.scala.html:19:111: value buscaVehiculo is not a member of controllers.ReverseControladorVehiculo[0m
+[0m[[0m[31merror[0m] [0m[0m                    <th scope="row"><a class="glyphicon glyphicon-eye-open" href="@routes.ControladorVehiculo.buscaVehiculo(p.getPlaca)">@p.getPlaca</a></th>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

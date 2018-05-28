@@ -47,20 +47,20 @@ Seq[Any](format.raw/*1.72*/("""
          """),format.raw/*15.94*/("""
                 """),format.raw/*16.17*/("""<p>    </p>
                 <p>    </p>
-                <a class="btn btn-success" href="#" contenteditable="false">
+                <a class="btn btn-success" href=""""),_display_(/*18.51*/routes/*18.57*/.ControladorPropietario.eliminar(propietario.getCedula())),format.raw/*18.114*/("""" contenteditable="false">
                     <i class="glyphicon glyphicon-trash"></i>
                     Eliminar
                 </a>
 
             </div>
             <div class="col-sm-8">
-            """),_display_(/*25.14*/helper/*25.20*/.form(action = routes.ControladorPropietario.index())/*25.73*/{_display_(Seq[Any](format.raw/*25.74*/("""
+            """),_display_(/*25.14*/helper/*25.20*/.form(action = routes.ControladorPropietario.modificar(propietario.getCedula))/*25.98*/{_display_(Seq[Any](format.raw/*25.99*/("""
                 """),_display_(/*26.18*/helper/*26.24*/.CSRF.formField),format.raw/*26.39*/("""
-                """),format.raw/*27.17*/("""<p class="h2">Cedula: """),_display_(/*27.40*/propietario/*27.51*/.getCedula),format.raw/*27.61*/("""</p>
-                """),_display_(/*28.18*/helper/*28.24*/.inputText(formularioPropietarios("nombres"),'class -> "form-control", 'placeholder -> "nombres",'readonly ->"true")),format.raw/*28.140*/("""
+                """),_display_(/*27.18*/helper/*27.24*/.inputText(formularioPropietarios("cedula"),'class -> "form-control", 'placeholder -> propietario.getCedula, 'readonly ->"true")),format.raw/*27.152*/("""
+                """),_display_(/*28.18*/helper/*28.24*/.inputText(formularioPropietarios("nombres"),'class -> "form-control", 'placeholder -> "nombres")),format.raw/*28.121*/("""
                 """),_display_(/*29.18*/helper/*29.24*/.inputText(formularioPropietarios("apellidos"),'class -> "form-control", 'placeholder -> "apellidos")),format.raw/*29.125*/("""
 
-          """),format.raw/*31.161*/("""
+            """),format.raw/*31.192*/("""
                 """),format.raw/*32.17*/("""<button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-edit"></i>Modificar</button>
             """)))}),format.raw/*33.14*/("""
             """),format.raw/*34.13*/("""</div>
@@ -83,11 +83,11 @@ Seq[Any](format.raw/*1.72*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon May 28 00:20:26 COT 2018
+                  DATE: Mon May 28 11:14:39 COT 2018
                   SOURCE: C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/app/views/viewsPropietario/mostarPropietario.scala.html
-                  HASH: aa4e449a9546ab353763190e1fe17ad062891d2c
-                  MATRIX: 1000->1|1165->71|1193->74|1230->103|1268->104|1300->110|1486->270|1505->281|1535->291|1644->373|1664->384|1696->395|1807->479|1827->490|1861->503|1906->604|1952->622|2285->928|2300->934|2362->987|2401->988|2447->1007|2462->1013|2498->1028|2544->1046|2594->1069|2614->1080|2645->1090|2695->1113|2710->1119|2848->1235|2894->1254|2909->1260|3032->1361|3075->1525|3121->1543|3271->1662|3313->1676
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|41->9|41->9|41->9|43->11|43->11|43->11|45->13|45->13|45->13|47->15|48->16|57->25|57->25|57->25|57->25|58->26|58->26|58->26|59->27|59->27|59->27|59->27|60->28|60->28|60->28|61->29|61->29|61->29|63->31|64->32|65->33|66->34
+                  HASH: 87e1b35cbbe3457d6408e0bcf859f33fb2f5364b
+                  MATRIX: 1000->1|1165->71|1193->74|1230->103|1268->104|1300->110|1486->270|1505->281|1535->291|1644->373|1664->384|1696->395|1807->479|1827->490|1861->503|1906->604|1952->622|2071->714|2086->720|2165->777|2406->991|2421->997|2508->1075|2547->1076|2593->1095|2608->1101|2644->1116|2690->1135|2705->1141|2855->1269|2901->1288|2916->1294|3035->1391|3081->1410|3096->1416|3219->1517|3264->1712|3310->1730|3460->1849|3502->1863
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|41->9|41->9|41->9|43->11|43->11|43->11|45->13|45->13|45->13|47->15|48->16|50->18|50->18|50->18|57->25|57->25|57->25|57->25|58->26|58->26|58->26|59->27|59->27|59->27|60->28|60->28|60->28|61->29|61->29|61->29|63->31|64->32|65->33|66->34
                   -- GENERATED --
               */
           

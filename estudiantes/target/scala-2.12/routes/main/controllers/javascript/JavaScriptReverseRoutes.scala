@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/ss/Desktop/Estructura de datos/sbt/estudiantes/conf/routes
-// @DATE:Sun May 27 23:26:57 COT 2018
+// @DATE:Mon May 28 12:54:50 COT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -59,6 +59,16 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:23
+    def eliminar: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorPropietario.eliminar",
+      """
+        function(cedula0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "eliminarPropietario" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[Long]].javascriptUnbind + """)("cedula", cedula0)])})
+        }
+      """
+    )
+  
     // @LINE:18
     def listaPropietarios: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.ControladorPropietario.listaPropietarios",
@@ -75,6 +85,16 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "buscarPropietario"})
+        }
+      """
+    )
+  
+    // @LINE:22
+    def modificar: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorPropietario.modificar",
+      """
+        function(cedula0) {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "modificarPropietario" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[Long]].javascriptUnbind + """)("cedula", cedula0)])})
         }
       """
     )
@@ -171,7 +191,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:23
+  // @LINE:34
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -179,12 +199,92 @@ package controllers.javascript {
     }
 
   
-    // @LINE:23
+    // @LINE:34
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
         function(file1) {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[play.api.mvc.PathBindable[Asset]].javascriptUnbind + """)("file", file1)})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:26
+  class ReverseControladorVehiculo(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:30
+    def modificarvehiculo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.modificarvehiculo",
+      """
+        function(placa0) {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "modificarvehiculo" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("placa", placa0)])})
+        }
+      """
+    )
+  
+    // @LINE:28
+    def crearVehiculo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.crearVehiculo",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "crearVehiculo"})
+        }
+      """
+    )
+  
+    // @LINE:32
+    def formBuscarVehiculo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.formBuscarVehiculo",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "buscarVehiculo"})
+        }
+      """
+    )
+  
+    // @LINE:31
+    def formularioBuscarVehiculo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.formularioBuscarVehiculo",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "buscarVehiculo"})
+        }
+      """
+    )
+  
+    // @LINE:27
+    def indexCrearVehiculo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.indexCrearVehiculo",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "crearVehiculo"})
+        }
+      """
+    )
+  
+    // @LINE:29
+    def buscarVehiculo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.buscarVehiculo",
+      """
+        function(placa0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "buscarVehiculo/placa" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("placa", placa0)])})
+        }
+      """
+    )
+  
+    // @LINE:26
+    def listaVehiculos: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ControladorVehiculo.listaVehiculos",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "listaVehiculos"})
         }
       """
     )

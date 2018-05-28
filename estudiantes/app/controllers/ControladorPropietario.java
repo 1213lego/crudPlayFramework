@@ -73,7 +73,7 @@ public class ControladorPropietario extends Controller {
          }
          else
          {
-             return ok(mainPage.render("No se ecuentra el propietarios con cedula: " + cedula.toString()));
+             return ok(mainPage.render("No se ecuentra el propietario con cedula: " + cedula.toString()));
          }
      }
      public Result buscarProp()
@@ -88,4 +88,38 @@ public class ControladorPropietario extends Controller {
          Long cc=Long.parseLong(cedula);
          return buscar(cc);
      }
+
+     public Result modificar(Long cc)
+     {
+         try
+         {
+             Propietario propietario= Ebean.find(Propietario.class,cc);
+             DynamicForm data=formFactory.form().bindFromRequest();
+             String nombre=data.get("nombres");
+             String apellidos=data.get("apellidos");
+             propietario.setNombres(nombre);
+             propietario.setApellidos(apellidos);
+             Ebean.update(propietario);
+             return listaPropietarios();
+         }
+         catch (Exception e)
+         {
+             return ok(mainPage.render("No se actualizo el propietario con cc: ," + cc +";" + " Error: "+e.getMessage()));
+         }
+     }
+
+
+     public Result eliminar(Long cc)
+     {
+         try
+         {
+             Ebean.delete(Propietario.class,cc);
+             return listaPropietarios();
+         }
+         catch (Exception e)
+         {
+             return ok(mainPage.render("Problemas al eliminar el propietario con cc: " + cc + "Error: " + e.getMessage()));
+         }
+     }
+
 }
